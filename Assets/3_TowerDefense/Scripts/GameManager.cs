@@ -33,7 +33,7 @@ namespace TowerDefense
         public void Start()
         {
             SoundManager.Instance.Init(audioModelSO);
-            SoundManager.Instance.PlayAudioSource("BGM");
+            SoundManager.Instance.PlayAudioSource("BGM"); 
 
             _StartA();
 
