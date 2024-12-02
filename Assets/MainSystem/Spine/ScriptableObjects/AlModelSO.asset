@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 889e79746c32e46628f24e3fc4531754, type: 3}
+  m_Name: AlModelSO
+  m_EditorClassIdentifier: 
+  spineSkinModelSOs:
+  - {fileID: 11400000, guid: c64476e7661184533b26fdc8895f3a76, type: 2}
+  - {fileID: 11400000, guid: 9a51d9ac93c1c423e94a8b2dde8027dd, type: 2}
+  - {fileID: 11400000, guid: ba5a5e07bd5614f8a962410c2e2855d7, type: 2}
+  - {fileID: 11400000, guid: f31c67a1113a842cb98084224b27d6c1, type: 2}
+  - {fileID: 11400000, guid: 2ac05d505f4bf4fb5a75cccedc955e32, type: 2}
+  - {fileID: 11400000, guid: 222a656e8d3674990a88e0ca90017948, type: 2}
+  - {fileID: 11400000, guid: 31c4d4fdb916a46c397b1dcf98262c53, type: 2}
+  - {fileID: 11400000, guid: eb5c0e268c04f4f2aa2b909be032a6cd, type: 2}
+  - {fileID: 11400000, guid: 23970321d04e146ec9d4029248525140, type: 2}
+  - {fileID: 11400000, guid: 6fea2b0bb64ae439e88964f357f3eee7, type: 2}

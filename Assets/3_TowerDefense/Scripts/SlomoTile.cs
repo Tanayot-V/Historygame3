@@ -1,0 +1,63 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEditor;
+using UnityEngine;
+
+namespace TowerDefense
+{
+    public class SlomoTile : MonoBehaviour
+    {
+        [Header("References")]
+        [SerializeField] private LayerMask enemyMask;
+
+        [Header("Attribute")]
+        [SerializeField] private float targetingRange = 5f;
+        [SerializeField] private float aps = 4f; //attacks per second
+        [SerializeField] private float freezrTime = 1f;
+
+        private float timeUntilFire;
+        private void Update()
+        {
+            timeUntilFire += Time.deltaTime;
+
+            if (timeUntilFire >= 1f / aps)
+            {
+                //Debug.Log("Freeze");
+                FreezeEnemies();
+                timeUntilFire = 0f;
+            }
+        }
+
+        //Tower Defence branch
+        private void FreezeEnemies()
+        {
+            RaycastHit2D[] hits = Physics2D.CircleCastAll(transform.position, targetingRange, (Vector2)transform.position, 0f, enemyMask);
+            if (hits.Length > 0)
+            {
+                for (int i = 0; i < hits.Length; i++)
+                {
+                    RaycastHit2D hit = hits[i];
+
+                    EnemyMovement em = hit.transform.GetComponent<EnemyMovement>();
+                    em.UpdateSpeed(0.25f);
+
+                    StartCoroutine(ResetEnemySeed(em));
+                }
+            }
+        }
+
+        private IEnumerator ResetEnemySeed(EnemyMovement em)
+        {
+            yield return new WaitForSeconds(freezrTime);
+            em.ResetSpeed();
+        }
+
+#if UNITY_EDITOR
+        private void OnDrawGizmosSelected()
+        {
+            Handles.color = Color.cyan;
+            Handles.DrawWireDisc(transform.position, transform.forward, targetingRange);
+        }
+#endif
+    }
+}

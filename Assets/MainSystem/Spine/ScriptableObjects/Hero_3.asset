@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7261a616d73434a6480210dc74ffeeb8, type: 3}
+  m_Name: Hero_3
+  m_EditorClassIdentifier: 
+  id: Hero_3
+  displayName: "\u0E2E\u0E35\u0E42\u0E23\u0E48 No.3"
+  prefab: {fileID: 6248043493826429713, guid: b0e14f1f4d5024074a5d3841922c6fc8, type: 3}
+  path: 
+  mainPath:
+  - hero/head/
+  - hero/weapon/
+  - hero/Body/
+  - hero/Hat/
+  - hero/Costume/
+  nameID:
+  - 003
+  - C
+  - a1
+  - h3
+  - hero_A

@@ -1,0 +1,592 @@
+
+hero1.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1px
+  rotate: false
+  xy: 2, 1925
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+perch hat_good
+  rotate: false
+  xy: 2, 1925
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Armor_Arm_L_bad
+  rotate: false
+  xy: 1342, 1178
+  size: 249, 217
+  orig: 251, 219
+  offset: 1, 1
+  index: -1
+Armor_Arm_L_good
+  rotate: false
+  xy: 1593, 1151
+  size: 249, 217
+  orig: 251, 219
+  offset: 1, 1
+  index: -1
+Armor_Arm_L_soldier_lv2_good
+  rotate: false
+  xy: 2, 1052
+  size: 249, 217
+  orig: 251, 219
+  offset: 1, 1
+  index: -1
+Armor_Arm_L_soldier_lv3_good
+  rotate: false
+  xy: 253, 1052
+  size: 249, 217
+  orig: 251, 219
+  offset: 1, 1
+  index: -1
+Armor_Arm_R
+  rotate: true
+  xy: 1733, 1583
+  size: 184, 241
+  orig: 186, 244
+  offset: 1, 1
+  index: -1
+Armor_Arm_R_good
+  rotate: true
+  xy: 2, 1473
+  size: 184, 241
+  orig: 186, 244
+  offset: 1, 1
+  index: -1
+Armor_Arm_R_soldier_lv2_good
+  rotate: true
+  xy: 245, 1463
+  size: 184, 241
+  orig: 186, 244
+  offset: 1, 1
+  index: -1
+Armor_Arm_R_soldier_lv3_good
+  rotate: true
+  xy: 488, 1463
+  size: 184, 241
+  orig: 186, 244
+  offset: 1, 1
+  index: -1
+BODY
+  rotate: true
+  xy: 1522, 2
+  size: 379, 472
+  orig: 379, 472
+  offset: 0, 0
+  index: -1
+Shoulder_armor_L
+  rotate: false
+  xy: 2, 268
+  size: 292, 277
+  orig: 294, 279
+  offset: 1, 1
+  index: -1
+Shoulder_armor_L_good
+  rotate: true
+  xy: 846, 128
+  size: 299, 336
+  orig: 301, 339
+  offset: 1, 1
+  index: -1
+Shoulder_armor_L_soldier_lv1_good
+  rotate: false
+  xy: 1301, 1592
+  size: 214, 178
+  orig: 217, 180
+  offset: 1, 1
+  index: -1
+Shoulder_armor_L_soldier_lv2_good
+  rotate: false
+  xy: 1665, 1370
+  size: 235, 211
+  orig: 238, 213
+  offset: 1, 1
+  index: -1
+Shoulder_armor_L_soldier_lv3_good
+  rotate: false
+  xy: 549, 750
+  size: 245, 242
+  orig: 249, 244
+  offset: 2, 1
+  index: -1
+Shoulder_armor_R
+  rotate: false
+  xy: 2, 547
+  size: 293, 276
+  orig: 295, 279
+  offset: 1, 1
+  index: -1
+Shoulder_armor_R_good
+  rotate: true
+  xy: 1184, 98
+  size: 299, 336
+  orig: 301, 339
+  offset: 1, 1
+  index: -1
+Shoulder_armor_R_soldier_lv1_good
+  rotate: false
+  xy: 1517, 1589
+  size: 214, 178
+  orig: 217, 180
+  offset: 2, 1
+  index: -1
+Shoulder_armor_R_soldier_lv2_good
+  rotate: false
+  xy: 1024, 992
+  size: 236, 219
+  orig: 239, 222
+  offset: 2, 2
+  index: -1
+Shoulder_armor_R_soldier_lv3_good
+  rotate: false
+  xy: 298, 760
+  size: 249, 239
+  orig: 252, 241
+  offset: 2, 1
+  index: -1
+Sleeve_L_bad
+  rotate: true
+  xy: 1400, 669
+  size: 257, 327
+  orig: 257, 327
+  offset: 0, 0
+  index: -1
+Sleeve_L_good
+  rotate: true
+  xy: 297, 491
+  size: 257, 327
+  orig: 257, 327
+  offset: 0, 0
+  index: -1
+Sleeve_R_bad
+  rotate: true
+  xy: 1729, 658
+  size: 268, 304
+  orig: 268, 304
+  offset: 0, 0
+  index: -1
+Sleeve_R_good
+  rotate: true
+  xy: 1301, 399
+  size: 268, 304
+  orig: 268, 304
+  offset: 0, 0
+  index: -1
+arm_R
+  rotate: true
+  xy: 1439, 1772
+  size: 154, 269
+  orig: 156, 271
+  offset: 1, 1
+  index: -1
+armor_skirt
+  rotate: false
+  xy: 796, 735
+  size: 300, 255
+  orig: 304, 259
+  offset: 2, 2
+  index: -1
+armor_skirt_L_bad
+  rotate: true
+  xy: 987, 1406
+  size: 184, 356
+  orig: 186, 358
+  offset: 1, 1
+  index: -1
+armor_skirt_L_good
+  rotate: true
+  xy: 1345, 1397
+  size: 190, 318
+  orig: 193, 321
+  offset: 2, 1
+  index: -1
+armor_skirt_L_soldier_lv1_good
+  rotate: true
+  xy: 5, 1827
+  size: 99, 108
+  orig: 101, 111
+  offset: 1, 2
+  index: -1
+armor_skirt_L_soldier_lv2_good
+  rotate: true
+  xy: 1710, 1769
+  size: 157, 236
+  orig: 159, 238
+  offset: 1, 1
+  index: -1
+armor_skirt_L_soldier_lv3_good
+  rotate: true
+  xy: 2, 1659
+  size: 157, 302
+  orig: 159, 304
+  offset: 1, 1
+  index: -1
+armor_skirt_R_bad
+  rotate: true
+  xy: 554, 1220
+  size: 214, 352
+  orig: 216, 354
+  offset: 1, 1
+  index: -1
+armor_skirt_R_good
+  rotate: true
+  xy: 963, 429
+  size: 263, 336
+  orig: 265, 338
+  offset: 1, 1
+  index: -1
+armor_skirt_R_soldier_lv1_good
+  rotate: false
+  xy: 115, 1818
+  size: 132, 108
+  orig: 134, 110
+  offset: 1, 1
+  index: -1
+armor_skirt_R_soldier_lv2_good
+  rotate: true
+  xy: 504, 1001
+  size: 217, 286
+  orig: 219, 288
+  offset: 1, 1
+  index: -1
+armor_skirt_R_soldier_lv3_good
+  rotate: true
+  xy: 792, 994
+  size: 217, 230
+  orig: 219, 232
+  offset: 1, 1
+  index: -1
+armor_skirt_good
+  rotate: false
+  xy: 1098, 694
+  size: 300, 255
+  orig: 304, 259
+  offset: 2, 2
+  index: -1
+armor_skirt_soldier_lv2_good
+  rotate: false
+  xy: 1262, 951
+  size: 294, 225
+  orig: 299, 227
+  offset: 2, 1
+  index: -1
+armor_skirt_soldier_lv3_good
+  rotate: false
+  xy: 2, 825
+  size: 294, 225
+  orig: 299, 227
+  offset: 2, 1
+  index: -1
+belt
+  rotate: false
+  xy: 908, 1213
+  size: 432, 191
+  orig: 434, 193
+  offset: 1, 1
+  index: -1
+belt_good
+  rotate: false
+  xy: 1558, 928
+  size: 440, 221
+  orig: 442, 223
+  offset: 1, 1
+  index: -1
+belt_soldier_lv2_good
+  rotate: false
+  xy: 306, 1649
+  size: 437, 167
+  orig: 439, 194
+  offset: 1, 25
+  index: -1
+eye_bad
+  rotate: false
+  xy: 249, 1818
+  size: 285, 108
+  orig: 287, 110
+  offset: 1, 1
+  index: -1
+eye_good
+  rotate: false
+  xy: 536, 1818
+  size: 285, 108
+  orig: 287, 110
+  offset: 1, 1
+  index: -1
+eye_soldier
+  rotate: false
+  xy: 823, 1818
+  size: 285, 108
+  orig: 287, 110
+  offset: 1, 1
+  index: -1
+feather
+  rotate: true
+  xy: 1607, 383
+  size: 273, 413
+  orig: 275, 415
+  offset: 1, 1
+  index: -1
+hand_L_bad
+  rotate: false
+  xy: 1110, 1782
+  size: 170, 144
+  orig: 172, 146
+  offset: 1, 1
+  index: -1
+hand_L_good
+  rotate: false
+  xy: 1110, 1782
+  size: 170, 144
+  orig: 172, 146
+  offset: 1, 1
+  index: -1
+hand_R_bad
+  rotate: false
+  xy: 1282, 1780
+  size: 155, 146
+  orig: 157, 148
+  offset: 1, 1
+  index: -1
+hand_R_good
+  rotate: false
+  xy: 1282, 1780
+  size: 155, 146
+  orig: 157, 148
+  offset: 1, 1
+  index: -1
+leg_L
+  rotate: true
+  xy: 2, 1271
+  size: 190, 550
+  orig: 192, 554
+  offset: 1, 1
+  index: -1
+leg_R_bad
+  rotate: true
+  xy: 2, 1271
+  size: 190, 550
+  orig: 192, 554
+  offset: 1, 1
+  index: -1
+leg_R_good
+  rotate: true
+  xy: 2, 1271
+  size: 190, 550
+  orig: 192, 554
+  offset: 1, 1
+  index: -1
+perch hat
+  rotate: false
+  xy: 296, 191
+  size: 548, 281
+  orig: 550, 283
+  offset: 1, 1
+  index: -1
+shoe_L_bad
+  rotate: true
+  xy: 731, 1436
+  size: 203, 254
+  orig: 205, 256
+  offset: 1, 1
+  index: -1
+shoe_R_bad
+  rotate: true
+  xy: 731, 1436
+  size: 203, 254
+  orig: 205, 256
+  offset: 1, 1
+  index: -1
+shoe_L_good
+  rotate: true
+  xy: 745, 1641
+  size: 175, 276
+  orig: 177, 278
+  offset: 1, 1
+  index: -1
+shoe_R_good
+  rotate: true
+  xy: 745, 1641
+  size: 175, 276
+  orig: 177, 278
+  offset: 1, 1
+  index: -1
+shoe_L_soldier_good
+  rotate: true
+  xy: 1023, 1603
+  size: 175, 276
+  orig: 177, 278
+  offset: 1, 1
+  index: -1
+shoe_R_soldier_good
+  rotate: true
+  xy: 1023, 1603
+  size: 175, 276
+  orig: 177, 278
+  offset: 1, 1
+  index: -1
+shoulder_R
+  rotate: true
+  xy: 626, 474
+  size: 259, 335
+  orig: 261, 337
+  offset: 1, 1
+  index: -1
+
+hero12.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BODY_good
+  rotate: true
+  xy: 1114, 1401
+  size: 379, 472
+  orig: 379, 472
+  offset: 0, 0
+  index: -1
+BODY_soldier_lv1_good
+  rotate: false
+  xy: 1588, 1308
+  size: 379, 472
+  orig: 379, 472
+  offset: 0, 0
+  index: -1
+BODY_soldier_lv2_good
+  rotate: true
+  xy: 1114, 1020
+  size: 379, 472
+  orig: 379, 472
+  offset: 0, 0
+  index: -1
+BODY_soldier_lv3_good
+  rotate: false
+  xy: 1588, 834
+  size: 379, 472
+  orig: 379, 472
+  offset: 0, 0
+  index: -1
+C
+  rotate: false
+  xy: 1117, 2
+  size: 645, 522
+  orig: 649, 525
+  offset: 2, 2
+  index: -1
+armor_skirt_back_bad
+  rotate: true
+  xy: 1114, 526
+  size: 492, 416
+  orig: 495, 418
+  offset: 2, 1
+  index: -1
+armor_skirt_back_soldier_lv3
+  rotate: true
+  xy: 1114, 526
+  size: 492, 416
+  orig: 495, 418
+  offset: 2, 1
+  index: -1
+effect slash
+  rotate: true
+  xy: 2, 60
+  size: 464, 1113
+  orig: 516, 1113
+  offset: 52, 0
+  index: -1
+sword_bad
+  rotate: true
+  xy: 2, 561
+  size: 334, 1110
+  orig: 336, 1113
+  offset: 1, 1
+  index: -1
+sword_soldier_lv1_good
+  rotate: true
+  xy: 2, 1487
+  size: 293, 1110
+  orig: 295, 1113
+  offset: 1, 1
+  index: -1
+sword_soldier_lv2_good
+  rotate: true
+  xy: 2, 1192
+  size: 293, 1110
+  orig: 295, 1113
+  offset: 1, 1
+  index: -1
+sword_soldier_lv3_good
+  rotate: true
+  xy: 2, 897
+  size: 293, 1110
+  orig: 295, 1113
+  offset: 1, 1
+  index: -1
+
+hero13.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+A
+  rotate: true
+  xy: 2, 155
+  size: 766, 622
+  orig: 766, 622
+  offset: 0, 0
+  index: -1
+B
+  rotate: true
+  xy: 626, 562
+  size: 702, 682
+  orig: 704, 684
+  offset: 1, 1
+  index: -1
+Veil_bad
+  rotate: false
+  xy: 1205, 1271
+  size: 685, 762
+  orig: 685, 762
+  offset: 0, 0
+  index: -1
+Veil_good
+  rotate: false
+  xy: 518, 1266
+  size: 685, 767
+  orig: 685, 767
+  offset: 0, 0
+  index: -1
+face_bad
+  rotate: false
+  xy: 1310, 622
+  size: 558, 647
+  orig: 560, 649
+  offset: 1, 1
+  index: -1
+face_good
+  rotate: true
+  xy: 626, 2
+  size: 558, 647
+  orig: 560, 649
+  offset: 1, 1
+  index: -1
+face_soldier
+  rotate: true
+  xy: 1310, 62
+  size: 558, 647
+  orig: 560, 649
+  offset: 1, 1
+  index: -1
+sword_good
+  rotate: false
+  xy: 2, 923
+  size: 514, 1110
+  orig: 516, 1113
+  offset: 1, 1
+  index: -1

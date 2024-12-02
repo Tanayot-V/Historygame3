@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8a19098e3a6242e29524c40472fdd36, type: 3}
+  m_Name: Barrack_SoldierSword
+  m_EditorClassIdentifier: 
+  barrackModel:
+    barrackID: Barrack_SoldierSword
+    displayName: "\u0E17\u0E2B\u0E32\u0E23"
+    barrackType: 2
+    characterFullSP: {fileID: 21300000, guid: 75890afc1cf1247fd86261af2178c835, type: 3}
+    fortressName: "\u0E1B\u0E49\u0E2D\u0E21\u0E17\u0E2B\u0E32\u0E23"
+    fortressUISP: {fileID: 21300000, guid: 1c611f996829142ed9cd657b2be2388f, type: 3}
+    fortressFullSP:
+    - {fileID: 21300000, guid: e91274ab753b0421398c399a964b34ce, type: 3}
+    - {fileID: 21300000, guid: fc867a63488db4b67b65442b4bd107c9, type: 3}
+    - {fileID: 21300000, guid: 6d01372a5de8449a69a9f7a2fcebd152, type: 3}
+    costFortress: 10
+    fortressUpgrades:
+    - id: Attack_Upgrade
+      fortressName: "\u0E1B\u0E49\u0E2D\u0E21\u0E08\u0E39\u0E48\u0E42\u0E08\u0E21"
+      upgradeType: 1
+      fortressUISP: {fileID: 21300000, guid: 2d0abc63b972b4ae58584b0c76724207, type: 3}
+      fortressFullSP:
+      - {fileID: 21300000, guid: 2d0abc63b972b4ae58584b0c76724207, type: 3}
+      - {fileID: 21300000, guid: 2d0abc63b972b4ae58584b0c76724207, type: 3}
+      - {fileID: 21300000, guid: f3d187dbe6ea04262863b4f295e97528, type: 3}
+      goldcost: 100
+    - id: Defence_Upgrade
+      fortressName: "\u0E1B\u0E49\u0E2D\u0E21\u0E1B\u0E49\u0E2D\u0E07\u0E01\u0E31\u0E19"
+      upgradeType: 2
+      fortressUISP: {fileID: 21300000, guid: 267950f216f5c4d01be4575715bef1d5, type: 3}
+      fortressFullSP:
+      - {fileID: 21300000, guid: f7d7b0aa0a55349a3b2050bd2361f723, type: 3}
+      - {fileID: 21300000, guid: f7d7b0aa0a55349a3b2050bd2361f723, type: 3}
+      - {fileID: 21300000, guid: 45d2dbac8e59d460dbec973cc779f23c, type: 3}
+      goldcost: 100
+    general: {fileID: 1720330595891170907, guid: ec9f933b3426c47578f221e7b9295e43, type: 3}
+    sprite_FullChar: {fileID: 0}
+    prefabs:
+    - {fileID: 1720330595891170907, guid: af56ff6cbc70147f3b448e6cefd9012b, type: 3}
+    - {fileID: 6909787825476431669, guid: e6abf0ef1e76b4db2b164ea1d1dbbf6b, type: 3}
+    - {fileID: 973716429070652393, guid: eaadd3e7c31c74808a5dd224d2e58471, type: 3}
+    - {fileID: 6854088455365681296, guid: 1acaf4e8dd3ef456080e948092dd78e5, type: 3}
+    - {fileID: 973716429070652393, guid: 7abf19a1947d24ae98ca613c16fc86d5, type: 3}
+    - {fileID: 973716429070652393, guid: 2ceaef2b0abd445d8b3c13e3f4eead5b, type: 3}
+    - {fileID: 973716429070652393, guid: 0def7201a38e64d8ca79066603445138, type: 3}

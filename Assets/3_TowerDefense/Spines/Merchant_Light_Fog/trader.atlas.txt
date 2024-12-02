@@ -1,0 +1,333 @@
+
+trader.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1px
+  rotate: false
+  xy: 2, 1938
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Armor_Arm_L_trader
+  rotate: false
+  xy: 500, 1196
+  size: 249, 217
+  orig: 251, 219
+  offset: 1, 1
+  index: -1
+Armor_Arm_R_trader
+  rotate: true
+  xy: 458, 1615
+  size: 184, 241
+  orig: 186, 244
+  offset: 1, 1
+  index: -1
+Armor_Arm_R_trader_fog
+  rotate: true
+  xy: 701, 1609
+  size: 184, 241
+  orig: 186, 244
+  offset: 1, 1
+  index: -1
+BODY_trader
+  rotate: true
+  xy: 306, 524
+  size: 379, 472
+  orig: 379, 472
+  offset: 0, 0
+  index: -1
+BODY_trader_fog
+  rotate: true
+  xy: 780, 479
+  size: 379, 472
+  orig: 379, 472
+  offset: 0, 0
+  index: -1
+Shoulder_armor_L_trader
+  rotate: false
+  xy: 1541, 1776
+  size: 226, 163
+  orig: 228, 166
+  offset: 1, 2
+  index: -1
+Shoulder_armor_L_trader_fog
+  rotate: false
+  xy: 1769, 1776
+  size: 226, 163
+  orig: 228, 166
+  offset: 1, 2
+  index: -1
+Shoulder_armor_R_trader
+  rotate: false
+  xy: 2, 1666
+  size: 226, 163
+  orig: 228, 166
+  offset: 1, 2
+  index: -1
+Shoulder_armor_R_trader_fog
+  rotate: false
+  xy: 230, 1666
+  size: 226, 163
+  orig: 228, 166
+  offset: 1, 2
+  index: -1
+Sleeve_L_trader
+  rotate: true
+  xy: 1235, 1124
+  size: 253, 322
+  orig: 257, 327
+  offset: 2, 3
+  index: -1
+Sleeve_L_trader_fog
+  rotate: true
+  xy: 1559, 1124
+  size: 253, 322
+  orig: 257, 327
+  offset: 2, 3
+  index: -1
+Sleeve_R_trader
+  rotate: true
+  xy: 1561, 856
+  size: 266, 302
+  orig: 268, 304
+  offset: 1, 1
+  index: -1
+Sleeve_R_trader_fog
+  rotate: true
+  xy: 2, 673
+  size: 266, 302
+  orig: 268, 304
+  offset: 1, 1
+  index: -1
+arm_L
+  rotate: false
+  xy: 258, 1198
+  size: 240, 215
+  orig: 244, 219
+  offset: 3, 2
+  index: -1
+arm_R
+  rotate: true
+  xy: 1270, 1785
+  size: 154, 269
+  orig: 156, 271
+  offset: 1, 1
+  index: -1
+armor_skirt_L_trader
+  rotate: true
+  xy: 579, 1801
+  size: 138, 179
+  orig: 140, 181
+  offset: 1, 1
+  index: -1
+armor_skirt_L_trader_fog
+  rotate: true
+  xy: 760, 1801
+  size: 138, 179
+  orig: 140, 181
+  offset: 1, 1
+  index: -1
+armor_skirt_R_trader
+  rotate: false
+  xy: 751, 1165
+  size: 240, 232
+  orig: 242, 236
+  offset: 1, 2
+  index: -1
+armor_skirt_R_trader_fog
+  rotate: false
+  xy: 993, 1165
+  size: 240, 232
+  orig: 242, 236
+  offset: 1, 2
+  index: -1
+belt_trader
+  rotate: false
+  xy: 677, 905
+  size: 440, 258
+  orig: 442, 260
+  offset: 1, 1
+  index: -1
+belt_trader_fog
+  rotate: false
+  xy: 1119, 860
+  size: 440, 262
+  orig: 442, 264
+  offset: 1, 1
+  index: -1
+eye_fog
+  rotate: false
+  xy: 5, 1831
+  size: 285, 108
+  orig: 287, 110
+  offset: 1, 1
+  index: -1
+eye_trader
+  rotate: false
+  xy: 292, 1831
+  size: 285, 108
+  orig: 287, 110
+  offset: 1, 1
+  index: -1
+hand_L_trader
+  rotate: false
+  xy: 941, 1795
+  size: 170, 144
+  orig: 172, 146
+  offset: 1, 1
+  index: -1
+hand_L_trader_fog
+  rotate: false
+  xy: 941, 1795
+  size: 170, 144
+  orig: 172, 146
+  offset: 1, 1
+  index: -1
+hand_R_trader
+  rotate: false
+  xy: 1113, 1793
+  size: 155, 146
+  orig: 157, 148
+  offset: 1, 1
+  index: -1
+hand_R_trader_fog
+  rotate: false
+  xy: 1113, 1793
+  size: 155, 146
+  orig: 157, 148
+  offset: 1, 1
+  index: -1
+leg_L
+  rotate: true
+  xy: 944, 1593
+  size: 190, 550
+  orig: 192, 554
+  offset: 1, 1
+  index: -1
+leg_R_trader
+  rotate: true
+  xy: 944, 1593
+  size: 190, 550
+  orig: 192, 554
+  offset: 1, 1
+  index: -1
+leg_L_trader
+  rotate: true
+  xy: 258, 1415
+  size: 192, 554
+  orig: 192, 554
+  offset: 0, 0
+  index: -1
+leg_L_trader_fog
+  rotate: true
+  xy: 814, 1399
+  size: 192, 554
+  orig: 192, 554
+  offset: 0, 0
+  index: -1
+leg_R_trader_fog
+  rotate: true
+  xy: 1496, 1584
+  size: 190, 550
+  orig: 192, 554
+  offset: 1, 1
+  index: -1
+shoe_L_trader
+  rotate: true
+  xy: 2, 1461
+  size: 203, 254
+  orig: 205, 256
+  offset: 1, 1
+  index: -1
+shoe_L_trader_fog
+  rotate: true
+  xy: 1370, 1379
+  size: 203, 254
+  orig: 205, 256
+  offset: 1, 1
+  index: -1
+shoe_R_trader
+  rotate: true
+  xy: 1626, 1379
+  size: 203, 254
+  orig: 205, 256
+  offset: 1, 1
+  index: -1
+shoe_R_trader_fog
+  rotate: true
+  xy: 2, 1256
+  size: 203, 254
+  orig: 205, 256
+  offset: 1, 1
+  index: -1
+shoulder_L
+  rotate: true
+  xy: 2, 941
+  size: 255, 336
+  orig: 258, 340
+  offset: 2, 2
+  index: -1
+shoulder_R
+  rotate: true
+  xy: 340, 935
+  size: 259, 335
+  orig: 261, 337
+  offset: 1, 1
+  index: -1
+trader
+  rotate: false
+  xy: 1254, 334
+  size: 753, 520
+  orig: 755, 522
+  offset: 1, 1
+  index: -1
+trader_fog
+  rotate: false
+  xy: 2, 2
+  size: 753, 520
+  orig: 755, 522
+  offset: 1, 1
+  index: -1
+
+trader2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bag_fog_v2
+  rotate: true
+  xy: 2, 2
+  size: 1233, 1327
+  orig: 1370, 1496
+  offset: 75, 67
+  index: -1
+face_trader
+  rotate: true
+  xy: 2, 1237
+  size: 558, 647
+  orig: 560, 649
+  offset: 1, 1
+  index: -1
+face_trader_fog
+  rotate: true
+  xy: 651, 1237
+  size: 558, 647
+  orig: 560, 649
+  offset: 1, 1
+  index: -1
+
+trader3.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bag_v2
+  rotate: false
+  xy: 2, 2
+  size: 1233, 1326
+  orig: 1370, 1496
+  offset: 75, 68
+  index: -1

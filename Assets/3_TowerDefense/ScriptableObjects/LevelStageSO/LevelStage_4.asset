@@ -1,0 +1,2608 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e353ad70d020c450f8b6a2355935f5f2, type: 3}
+  m_Name: LevelStage_4
+  m_EditorClassIdentifier: 
+  levelStageModel:
+    levelID: Level_4
+    levelType: 5
+    baseType: 1
+    stageDetail:
+      mission: "4_\u0E17\u0E33\u0E25\u0E32\u0E22\u0E40\u0E21\u0E37\u0E2D\u0E07\u0E02\u0E2D\u0E07\u0E28\u0E31\u0E15\u0E23\u0E39 
+        \\n\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E02\u0E22\u0E32\u0E22\u0E14\u0E34\u0E19\u0E41\u0E14\u0E19"
+      win: "\u0E41\u0E21\u0E49\u0E08\u0E30\u0E40\u0E01\u0E34\u0E14\u0E40\u0E2B\u0E15\u0E38\u0E44\u0E21\u0E48\u0E04\u0E32\u0E14\u0E1D\u0E31\u0E19\u0E02\u0E36\u0E49\u0E19
+        \u0E41\u0E15\u0E48\u0E17\u0E27\u0E48\u0E32\u0E2D\u0E32\u0E13\u0E32\u0E08\u0E31\u0E01\u0E23\u0E41\u0E2B\u0E48\u0E07\u0E41\u0E2A\u0E07\u0E01\u0E47\u0E22\u0E31\u0E07\u0E04\u0E07\u0E23\u0E2D\u0E14\u0E1E\u0E49\u0E19\u0E27\u0E34\u0E01\u0E24\u0E15\u0E21\u0E32\u0E44\u0E14\u0E49\u0E14\u0E49\u0E27\u0E22\u0E01\u0E32\u0E23\u0E40\u0E02\u0E49\u0E32\u0E0A\u0E48\u0E27\u0E22\u0E40\u0E2B\u0E25\u0E37\u0E2D\u0E02\u0E2D\u0E07\u0E08\u0E2D\u0E21\u0E17\u0E31\u0E1E  "
+      lose: 
+      trivia: "\u0E23\u0E39\u0E49\u0E2B\u0E23\u0E37\u0E2D\u0E44\u0E21\u0E48 \u0E2D\u0E32\u0E01\u0E32\u0E23\u0E42\u0E21\u0E42\u0E2B\u0E2B\u0E34\u0E27
+        \u0E40\u0E1E\u0E23\u0E32\u0E30\u0E2D\u0E32\u0E2B\u0E32\u0E23\u0E44\u0E21\u0E48\u0E1E\u0E2D\u0E41\u0E25\u0E30\u0E44\u0E21\u0E48\u0E2D\u0E23\u0E48\u0E2D\u0E22
+        \u0E40\u0E1B\u0E47\u0E19\u0E2B\u0E19\u0E36\u0E48\u0E07\u0E43\u0E19\u0E40\u0E2B\u0E15\u0E38\u0E1C\u0E25\u0E02\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E04\u0E34\u0E14\u0E01\u0E1A\u0E0E\u0E17\u0E35\u0E48\u0E1A\u0E2D\u0E01\u0E43\u0E2B\u0E49\u0E23\u0E39\u0E49\u0E27\u0E48\u0E32
+        \u0E40\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E01\u0E34\u0E19\u0E40\u0E1B\u0E47\u0E19\u0E40\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E43\u0E2B\u0E0D\u0E48\u0E21\u0E32\u0E15\u0E31\u0E49\u0E07\u0E41\u0E15\u0E48\u0E2A\u0E21\u0E31\u0E22\u0E2D\u0E22\u0E38\u0E18\u0E22\u0E32 "
+      popups:
+      - "\u0E14\u0E49\u0E27\u0E22\u0E01\u0E32\u0E23\u0E0A\u0E31\u0E01\u0E08\u0E39\u0E07\u0E02\u0E2D\u0E07\u0E2D\u0E32\u0E13\u0E32\u0E08\u0E31\u0E01\u0E23\u0E2B\u0E21\u0E2D\u0E2D\u0E01\\n\u0E40\u0E21\u0E37\u0E2D\u0E07\u0E41\u0E2B\u0E48\u0E07\u0E41\u0E2A\u0E07
+        \u0E2B\u0E31\u0E27\u0E40\u0E21\u0E37\u0E2D\u0E07\u0E02\u0E2D\u0E07\u0E17\u0E48\u0E32\u0E19\\n\u0E44\u0E14\u0E49\u0E41\u0E1B\u0E23\u0E1E\u0E31\u0E01\u0E15\u0E23\u0E4C\u0E40\u0E02\u0E49\u0E32\u0E23\u0E48\u0E27\u0E21\u0E01\u0E31\u0E1A\u0E2D\u0E32\u0E13\u0E32\u0E08\u0E31\u0E01\u0E23\u0E41\u0E2B\u0E48\u0E07\u0E2B\u0E21\u0E2D\u0E01
+        \\n  \u0E15\u0E48\u0E2D\u0E08\u0E32\u0E01\u0E19\u0E35\u0E49(\u0E2D\u0E14\u0E35\u0E15)\u0E40\u0E21\u0E37\u0E2D\u0E07\u0E41\u0E2B\u0E48\u0E07\u0E2A\u0E07\\n\u0E08\u0E30\u0E2A\u0E48\u0E07\u0E17\u0E2B\u0E32\u0E23\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E42\u0E08\u0E21\u0E15\u0E35\u0E17\u0E48\u0E32\u0E19\u0E23\u0E48\u0E27\u0E21\u0E01\u0E31\u0E1A\u0E2D\u0E32\u0E13\u0E32\u0E08\u0E31\u0E01\u0E23\u0E41\u0E2B\u0E48\u0E07\u0E2B\u0E21\u0E2D\u0E01 "
+    barrackModelSO:
+    - {fileID: 11400000, guid: bac79efa070094830a1ab89e1fc584c8, type: 2}
+    - {fileID: 11400000, guid: 00a71087938cf47b5b479d5eeef45166, type: 2}
+    - {fileID: 11400000, guid: f266533edf12d4cd0ba92dde4fee0f8e, type: 2}
+    - {fileID: 11400000, guid: 9c91c8de9cac04ec698af880fabf3b6b, type: 2}
+    enemyWaves:
+    - enemyGroups:
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 1
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 1
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 1
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 1
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      currentSpawnerIndexLists: 00000000
+      currentEnemyGroupIndex: 13
+    - enemyGroups:
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 1
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 1
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1e9c57eee7ac049b894ddbfdfc405a7a, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 00000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 1
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 1
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 2
+      currentSpawnerIndexLists: 00000000
+      currentEnemyGroupIndex: 8
+    - enemyGroups:
+      - spawnerIndexLists: 0100000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0100000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0100000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0100000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0100000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0100000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0100000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0100000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0100000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0100000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0100000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0100000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0100000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1e9c57eee7ac049b894ddbfdfc405a7a, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0100000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 01000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0100000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 1
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 3
+      - spawnerIndexLists: 0100000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0100000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 3
+      - spawnerIndexLists: 0100000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0100000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0100000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0100000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 3
+      - spawnerIndexLists: 0100000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0100000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 2
+      currentSpawnerIndexLists: 0100000002000000
+      currentEnemyGroupIndex: 12
+    - enemyGroups:
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 1
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0100000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0100000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0100000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0100000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0100000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0100000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 1
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0000000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1e9c57eee7ac049b894ddbfdfc405a7a, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0000000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0000000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0000000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 1
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1e9c57eee7ac049b894ddbfdfc405a7a, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 000000000100000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 3
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 000000000100000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 2
+      currentSpawnerIndexLists: 0000000001000000
+      currentEnemyGroupIndex: 30
+    - enemyGroups:
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 1
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1e9c57eee7ac049b894ddbfdfc405a7a, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 1
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1e9c57eee7ac049b894ddbfdfc405a7a, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 1
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 1
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 1
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 1
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 1
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 1
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      currentSpawnerIndexLists: 03000000
+      currentEnemyGroupIndex: 0
+    - enemyGroups:
+      - spawnerIndexLists: 010000000200000003000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 010000000200000003000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 010000000200000003000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1e9c57eee7ac049b894ddbfdfc405a7a, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 010000000200000003000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 010000000200000003000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 010000000200000003000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 010000000200000003000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 010000000200000003000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 010000000200000003000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 010000000200000003000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 010000000200000003000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 010000000200000003000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 010000000200000003000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 010000000200000003000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1e9c57eee7ac049b894ddbfdfc405a7a, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 010000000200000003000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 01000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 010000000200000003000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 1
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 3
+      - spawnerIndexLists: 010000000200000003000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 010000000200000003000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 3
+      - spawnerIndexLists: 010000000200000003000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 010000000200000003000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 010000000200000003000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 010000000200000003000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1e9c57eee7ac049b894ddbfdfc405a7a, type: 3}
+        quantity: 3
+      - spawnerIndexLists: 010000000200000003000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 010000000200000003000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 2
+      currentSpawnerIndexLists: 010000000200000003000000
+      currentEnemyGroupIndex: 3
+    - enemyGroups:
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 1
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0100000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 1
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0100000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0100000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0100000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0100000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0100000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 1
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0000000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1e9c57eee7ac049b894ddbfdfc405a7a, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0000000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0000000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0000000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 1
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1e9c57eee7ac049b894ddbfdfc405a7a, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 1
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 1
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 1
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 000000000100000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+        quantity: 3
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1e9c57eee7ac049b894ddbfdfc405a7a, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 000000000100000002000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 1
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1e9c57eee7ac049b894ddbfdfc405a7a, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0000000001000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 2
+      currentSpawnerIndexLists: 00000000
+      currentEnemyGroupIndex: 4
+    - enemyGroups:
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1e9c57eee7ac049b894ddbfdfc405a7a, type: 3}
+        quantity: 3
+      - spawnerIndexLists: 0300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1e9c57eee7ac049b894ddbfdfc405a7a, type: 3}
+        quantity: 3
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 1
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1e9c57eee7ac049b894ddbfdfc405a7a, type: 3}
+        quantity: 3
+      - spawnerIndexLists: 0300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1e9c57eee7ac049b894ddbfdfc405a7a, type: 3}
+        quantity: 3
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 2
+      currentSpawnerIndexLists: 0300000004000000
+      currentEnemyGroupIndex: 6
+    - enemyGroups:
+      - spawnerIndexLists: 0000000001000000020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0000000001000000020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0000000001000000020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0000000001000000020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1e9c57eee7ac049b894ddbfdfc405a7a, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0000000001000000020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1e9c57eee7ac049b894ddbfdfc405a7a, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 3
+      - spawnerIndexLists: 0000000001000000020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0000000001000000020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0000000001000000020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0000000001000000020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0000000001000000020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 1
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1e9c57eee7ac049b894ddbfdfc405a7a, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1e9c57eee7ac049b894ddbfdfc405a7a, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 2
+      - spawnerIndexLists: 0300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 2
+      currentSpawnerIndexLists: 0300000004000000
+      currentEnemyGroupIndex: 32
+    - enemyGroups:
+      - spawnerIndexLists: 0000000001000000020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+        quantity: 3
+      - spawnerIndexLists: 0000000001000000020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+        quantity: 3
+      - spawnerIndexLists: 0000000001000000020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+        quantity: 3
+      - spawnerIndexLists: 0000000001000000020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+        quantity: 3
+      - spawnerIndexLists: 0000000001000000020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 3
+      - spawnerIndexLists: 0000000001000000020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 1
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 3
+      - spawnerIndexLists: 0000000001000000020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 1
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 3
+      - spawnerIndexLists: 0000000001000000020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 1
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 3
+      - spawnerIndexLists: 0000000001000000020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 1
+        prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 3
+      - spawnerIndexLists: 0000000001000000020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1e9c57eee7ac049b894ddbfdfc405a7a, type: 3}
+        quantity: 3
+      - spawnerIndexLists: 0000000001000000020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1e9c57eee7ac049b894ddbfdfc405a7a, type: 3}
+        quantity: 3
+      - spawnerIndexLists: 04000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 1e9c57eee7ac049b894ddbfdfc405a7a, type: 3}
+        quantity: 3
+      - spawnerIndexLists: 0300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 1
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 0
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 5801fc3384b304aa3aab8aca4d11511b, type: 3}
+        quantity: 1
+      - spawnerIndexLists: 0000000001000000020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 3
+      - spawnerIndexLists: 0000000001000000020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 3
+      - spawnerIndexLists: 0000000001000000020000000300000004000000
+        isFixQuantity: 0
+        quantityPerPointIndex: 
+        isRandom: 0
+        isContinue: 0
+        isExceptPreviousSpawnPoint: 0
+        isSpawnAllSpawnPoint: 1
+        includeRebellion: 0
+        prefab: {fileID: 6602983635711116909, guid: 2d6313d9012cd4b6f821b6395e689957, type: 3}
+        quantity: 3
+      currentSpawnerIndexLists: 0000000001000000020000000300000004000000
+      currentEnemyGroupIndex: 16

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7261a616d73434a6480210dc74ffeeb8, type: 3}
+  m_Name: Enemy_Shield
+  m_EditorClassIdentifier: 
+  id: Enemy_Sword_Senior
+  displayName: Enemy_Sword_Senior
+  prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+  paths:
+  - fog/fog_soldier_shield
+  animations:
+  - type: 0
+    animationName: shield/idle_shield
+  - type: 1
+    animationName: shield/shield_run
+  - type: 2
+    animationName: shield/attak_shield
+  - type: 3
+    animationName: shield/dead_shield
+  - type: 5
+    animationName: shield/idle_shield

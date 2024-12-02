@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7261a616d73434a6480210dc74ffeeb8, type: 3}
+  m_Name: King Narai_Ayutthaya_1
+  m_EditorClassIdentifier: 
+  id: King Narai_Ayutthaya_1
+  displayName: King Narai_Ayutthaya_1
+  prefab: {fileID: 804793506633532415, guid: de9dbfef6d04e465cad9c1c2ba4e0a06, type: 3}
+  path: preset_hero/King Narai_Ayutthaya_1
+  paths:
+  - preset_hero/King Narai_Ayutthaya_1
+  animations: []

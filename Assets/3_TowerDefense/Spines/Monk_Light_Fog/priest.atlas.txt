@@ -1,0 +1,313 @@
+
+priest.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1px
+  rotate: false
+  xy: 2, 1832
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+Armor_Arm_L_priest
+  rotate: false
+  xy: 1543, 1238
+  size: 249, 217
+  orig: 251, 219
+  offset: 1, 1
+  index: -1
+Armor_Arm_L_priestt_fog
+  rotate: false
+  xy: 1794, 1238
+  size: 249, 217
+  orig: 251, 219
+  offset: 1, 1
+  index: -1
+Armor_Arm_R_priest
+  rotate: true
+  xy: 2, 1539
+  size: 184, 241
+  orig: 186, 244
+  offset: 1, 1
+  index: -1
+Armor_Arm_R_priestt_fog
+  rotate: true
+  xy: 245, 1539
+  size: 184, 241
+  orig: 186, 244
+  offset: 1, 1
+  index: -1
+BODY_priest
+  rotate: true
+  xy: 1371, 108
+  size: 379, 472
+  orig: 379, 472
+  offset: 0, 0
+  index: -1
+BODY_priestt_fog
+  rotate: false
+  xy: 2, 2
+  size: 379, 472
+  orig: 379, 472
+  offset: 0, 0
+  index: -1
+Shoulder_armor_L_priest
+  rotate: true
+  xy: 2, 775
+  size: 261, 453
+  orig: 261, 453
+  offset: 0, 0
+  index: -1
+Shoulder_armor_L_priestt_fog
+  rotate: true
+  xy: 988, 1004
+  size: 259, 451
+  orig: 261, 453
+  offset: 1, 1
+  index: -1
+Shoulder_armor_R_priest
+  rotate: false
+  xy: 1673, 489
+  size: 297, 443
+  orig: 297, 443
+  offset: 0, 0
+  index: -1
+Shoulder_armor_R_priestt_fog
+  rotate: true
+  xy: 2, 476
+  size: 297, 443
+  orig: 297, 443
+  offset: 0, 0
+  index: -1
+Sleeve_L_priest
+  rotate: true
+  xy: 2, 1042
+  size: 253, 322
+  orig: 257, 327
+  offset: 2, 3
+  index: -1
+Sleeve_L_priestt_fog
+  rotate: true
+  xy: 326, 1038
+  size: 253, 322
+  orig: 257, 327
+  offset: 2, 3
+  index: -1
+Sleeve_R_priest
+  rotate: false
+  xy: 1778, 934
+  size: 266, 302
+  orig: 268, 304
+  offset: 1, 1
+  index: -1
+Sleeve_R_priestt_fog
+  rotate: true
+  xy: 457, 768
+  size: 266, 302
+  orig: 268, 304
+  offset: 1, 1
+  index: -1
+arm_L
+  rotate: true
+  xy: 258, 1297
+  size: 240, 215
+  orig: 244, 219
+  offset: 3, 2
+  index: -1
+arm_R
+  rotate: true
+  xy: 908, 1679
+  size: 154, 269
+  orig: 156, 271
+  offset: 1, 1
+  index: -1
+armor_skirt_L_priest
+  rotate: true
+  xy: 1217, 679
+  size: 296, 454
+  orig: 300, 456
+  offset: 2, 1
+  index: -1
+armor_skirt_L_priestt_fog
+  rotate: true
+  xy: 761, 706
+  size: 296, 454
+  orig: 300, 456
+  offset: 2, 1
+  index: -1
+armor_skirt_R_priest
+  rotate: true
+  xy: 447, 373
+  size: 331, 460
+  orig: 334, 462
+  offset: 1, 1
+  index: -1
+armor_skirt_R_priestt_fog
+  rotate: true
+  xy: 909, 346
+  size: 331, 460
+  orig: 334, 462
+  offset: 1, 1
+  index: -1
+belt_priest
+  rotate: false
+  xy: 1179, 1662
+  size: 397, 171
+  orig: 399, 173
+  offset: 1, 1
+  index: -1
+belt_priestt_fog
+  rotate: false
+  xy: 1578, 1662
+  size: 397, 171
+  orig: 399, 173
+  offset: 1, 1
+  index: -1
+eye_priest
+  rotate: false
+  xy: 5, 1725
+  size: 285, 108
+  orig: 287, 110
+  offset: 1, 1
+  index: -1
+eye_priest_fog
+  rotate: false
+  xy: 292, 1725
+  size: 285, 108
+  orig: 287, 110
+  offset: 1, 1
+  index: -1
+hand_L_priest
+  rotate: false
+  xy: 579, 1689
+  size: 170, 144
+  orig: 172, 146
+  offset: 1, 1
+  index: -1
+hand_L_priestt_fog
+  rotate: false
+  xy: 579, 1689
+  size: 170, 144
+  orig: 172, 146
+  offset: 1, 1
+  index: -1
+hand_R_priest
+  rotate: false
+  xy: 751, 1687
+  size: 155, 146
+  orig: 157, 148
+  offset: 1, 1
+  index: -1
+hand_R_priestt_fog
+  rotate: false
+  xy: 751, 1687
+  size: 155, 146
+  orig: 157, 148
+  offset: 1, 1
+  index: -1
+leg_L
+  rotate: true
+  xy: 488, 1487
+  size: 190, 550
+  orig: 192, 554
+  offset: 1, 1
+  index: -1
+leg_Lt_fog
+  rotate: true
+  xy: 1040, 1470
+  size: 190, 550
+  orig: 192, 554
+  offset: 1, 1
+  index: -1
+leg_R_priestt_fog
+  rotate: true
+  xy: 1040, 1470
+  size: 190, 550
+  orig: 192, 554
+  offset: 1, 1
+  index: -1
+leg_R_priest
+  rotate: true
+  xy: 475, 1293
+  size: 192, 554
+  orig: 192, 554
+  offset: 0, 0
+  index: -1
+shoe_L_priest
+  rotate: true
+  xy: 1592, 1457
+  size: 203, 254
+  orig: 205, 256
+  offset: 1, 1
+  index: -1
+shoe_L_priestt_fog
+  rotate: true
+  xy: 2, 1334
+  size: 203, 254
+  orig: 205, 256
+  offset: 1, 1
+  index: -1
+shoe_R_priest
+  rotate: true
+  xy: 1031, 1265
+  size: 203, 254
+  orig: 205, 256
+  offset: 1, 1
+  index: -1
+shoe_R_priestt_fog
+  rotate: true
+  xy: 1287, 1265
+  size: 203, 254
+  orig: 205, 256
+  offset: 1, 1
+  index: -1
+shoulder_L
+  rotate: true
+  xy: 650, 1036
+  size: 255, 336
+  orig: 258, 340
+  offset: 2, 2
+  index: -1
+shoulder_R
+  rotate: true
+  xy: 1441, 977
+  size: 259, 335
+  orig: 261, 337
+  offset: 1, 1
+  index: -1
+
+priest2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+face_priest
+  rotate: false
+  xy: 698, 917
+  size: 558, 647
+  orig: 560, 649
+  offset: 1, 1
+  index: -1
+face_priestt_fog
+  rotate: false
+  xy: 698, 268
+  size: 558, 647
+  orig: 560, 649
+  offset: 1, 1
+  index: -1
+priest
+  rotate: false
+  xy: 2, 784
+  size: 694, 780
+  orig: 696, 782
+  offset: 1, 1
+  index: -1
+priestt_fog
+  rotate: false
+  xy: 2, 2
+  size: 694, 780
+  orig: 696, 782
+  offset: 1, 1
+  index: -1

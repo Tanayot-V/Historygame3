@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8a19098e3a6242e29524c40472fdd36, type: 3}
+  m_Name: Barrack_SoldierGun
+  m_EditorClassIdentifier: 
+  barrackModel:
+    barrackID: Barrack_SoldierGun
+    displayName: "\u0E1E\u0E25\u0E1B\u0E37\u0E19"
+    barrackType: 1
+    characterFullSP: {fileID: 21300000, guid: fc69a67548b6546729b3344e168bf86d, type: 3}
+    fortressName: "\u0E1B\u0E49\u0E2D\u0E21\u0E1E\u0E25\u0E1B\u0E37\u0E19"
+    fortressUISP: {fileID: -1944473282, guid: e1667646c70584f89a0d7439079be0cc, type: 3}
+    fortressFullSP:
+    - {fileID: 21300000, guid: b7db26d645f8c4969892fd6b14fcecec, type: 3}
+    - {fileID: 21300000, guid: b7db26d645f8c4969892fd6b14fcecec, type: 3}
+    - {fileID: 21300000, guid: 0181595be996a4d2ba1a34d61c297cf7, type: 3}
+    costFortress: 10
+    fortressUpgrades: []
+    general: {fileID: 0}
+    sprite_FullChar: {fileID: 0}
+    prefabs:
+    - {fileID: 1680522301783425804, guid: 95af938f6b6704910b7692f370a5287a, type: 3}
+    - {fileID: 6909787825476431669, guid: 326dce4178f404c16a1a9cc46186e55f, type: 3}
+    - {fileID: 973716429070652393, guid: 3b2e151e5f0c14f8fac354711264e080, type: 3}
+    - {fileID: 4391351649936498424, guid: d47f01da086a649b183769721f8fd018, type: 3}
+    - {fileID: 627014996749154996, guid: 21a06f4171b044784b5d60696ab96ff2, type: 3}
+    - {fileID: 1248102422136837828, guid: 7560fbbd0c837406aa2efa307d60117a, type: 3}
+    - {fileID: 8336541089021481629, guid: 78fa5d51d8ff8430c8d7cab525906c7f, type: 3}

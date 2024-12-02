@@ -1,0 +1,168 @@
+/* demo */
+
+* {
+  font-family: monospace;
+}
+
+body {
+  background: #000;
+  color: #999;
+  font-size: 17px;
+}
+
+a {
+  color: #ccc;
+  text-decoration: underline;
+}
+
+.info {
+  width:100%;
+  padding:12px;
+  box-sizing: border-box;
+}
+
+/* webgl layout */
+
+.webgl-wrapper {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+}
+
+.webgl-content {
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#unityContainer {
+  width: 100%; height: 100%;
+}
+
+.webgl-content * {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+#unityContainer canvas {
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+}
+
+/* this element makes sure we preserve 16:9 aspect ratio */
+
+.aspect {
+  margin-top: calc(100% / 1280 * 720);
+}
+
+/* progress bar */
+
+.webgl-content .logo, .progress {position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
+.webgl-content .logo {background: url('../images/progressLogo.Light.png') no-repeat center / contain; width: 154px; height: 130px;}
+.webgl-content .progress {height: 18px; width: 141px; margin-top: 90px;}
+.webgl-content .progress .empty {background: url('../images/progressEmpty.Light.png') no-repeat right / cover; float: right; width: 100%; height: 100%; display: inline-block;}
+.webgl-content .progress .full {background: url('../images/progressFull.Light.png') no-repeat left / cover; float: left; width: 0%; height: 100%; display: inline-block;}
+.webgl-content .logo.Dark {background-image: url('../images/progressLogo.Dark.png');}
+.webgl-content .progress.Dark .empty {background-image: url('../images/progressEmpty.Dark.png');}
+.webgl-content .progress.Dark .full {background-image: url('../images/progressFull.Dark.png');}
+.webgl-content .footer {margin-top: 5px; height: 38px; line-height: 38px; font-family: Helvetica, Verdana, Arial, sans-serif; font-size: 18px;}
+.webgl-content .footer .webgl-logo, .title, .fullscreen {height: 100%; display: inline-block; background: transparent center no-repeat;}
+.webgl-content .footer .webgl-logo {background-image: url('../images/webgl-logo.png'); width: 204px; float: left;}
+.webgl-content .footer .title {margin-right: 10px; float: right;}
+.webgl-content .footer .fullscreen {background-image: url('../images/fullscreen.png'); width: 38px; float: right; cursor:pointer;}
+
+#unity-container {
+    width: 100%;
+    height: 100%;
+}
+#unity-canvas {
+    width: 100%;
+    height: 100%;
+    background: {{{ BACKGROUND_COLOR }}};
+}
+#loading-cover {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#unity-loading-bar {
+    top: 80px;
+    left: 50px;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#unity-logo {
+    text-align: center;
+}
+#unity-logo img {
+    max-width: 80%;
+}
+#unity-progress-bar-empty {
+    width: 80%;
+    height: 24px;
+    margin: 100px 200px 200px 100px;
+    text-align: left;
+    border: 1px solid white;
+    padding: 2px;
+}
+#unity-progress-bar-full {
+    width: 0%;
+    height: 100%;
+    background: white;
+}
+.light #unity-progress-bar-empty {
+    border-color: black;
+}
+.light #unity-progress-bar-full {
+    background: black;
+}
+
+#unity-fullscreen-button {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 38px;
+    height: 38px;
+    background: url('fullscreen-button.png') no-repeat center;
+    background-size: contain;
+}
+
+.spinner,
+.spinner:after {
+  border-radius: 50%;
+  width: 5em;
+  height: 5em;
+}
+.spinner {
+  margin: 10px;
+  font-size: 10px;
+  position: relative;
+  text-indent: -9999em;
+  border-top: 1.1em solid rgba(255, 255, 255, 0.2);
+  border-right: 1.1em solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1.1em solid rgba(255, 255, 255, 0.2);
+  border-left: 1.1em solid #ffffff;
+  transform: translateZ(0);
+  animation: spinner-spin 1.1s infinite linear;
+}
+@keyframes spinner-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

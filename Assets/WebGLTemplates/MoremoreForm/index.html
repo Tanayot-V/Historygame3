@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>MoreMoreAnimal</title>
+  </head>
+  <body style="background-color:#2E1F18;"></body>
+  <body>
+  <!-- load Ber -->
+      <div id="unity-loading-bar">
+        <div id="unity-logo"></div>
+        <div id="unity-progress-bar-empty">
+          <div id="unity-progress-bar-full"></div>
+        </div>
+      </div>
+      <div id="unity-warning"> </div>
+      <div id="unity-footer">
+        <div id="webgl-logo"></div>
+        <div id="unity-fullscreen-button"></div>
+        <div id="unity-build-title"></div>
+
+        <!-- End load Game -->
+            <div class="webgl-wrapper">
+            <div class="aspect"></div>
+            <div class="webgl-content">
+            <div id="unityContainer">
+            <canvas id="unity-canvas" style="background: #2E1F18"></canvas>
+        </div>
+      </div>
+    </div>
+        <!-- End load Game -->
+
+      </div>
+    </div>
+    <!-- bootstrap css -->
+
+
+      <script src="MyLoader.js"></script>
+    <script>
+      var container = document.querySelector("#unity-container");
+      var canvas = document.querySelector("#unity-canvas");
+      var loadingBar = document.querySelector("#unity-loading-bar");
+      var progressBarFull = document.querySelector("#unity-progress-bar-full");
+      var fullscreenButton = document.querySelector("#unity-fullscreen-button");
+      var warningBanner = document.querySelector("#unity-warning");
+
+        function unityShowBanner(msg, type) {
+        function updateBannerVisibility() {
+          warningBanner.style.display = warningBanner.children.length ? 'block' : 'none';
+        }
+        var div = document.createElement('div');
+        div.innerHTML = msg;
+        warningBanner.appendChild(div);
+        if (type == 'error') div.style = 'background: red; padding: 10px;';
+        else {
+          if (type == 'warning') div.style = 'background: yellow; padding: 10px;';
+          setTimeout(function() {
+            warningBanner.removeChild(div);
+            updateBannerVisibility();
+          }, 5000);
+        }
+        updateBannerVisibility();
+      }
+
+      var buildUrl = "Build";
+      var loaderUrl = buildUrl + "/public.loader.js";
+      var config = {
+        dataUrl: buildUrl + "/public.data.unityweb",
+        frameworkUrl: buildUrl + "/public.framework.js.unityweb",
+        codeUrl: buildUrl + "/public.wasm.unityweb",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "YamuJung",
+        productName: "MoreMoreAnimal",
+        productVersion: "1.0",
+        showBanner: unityShowBanner,
+      };
+
+      /*
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        dataUrl: "Build/public.data.unityweb",
+        frameworkUrl: "Build/public.framework.js.unityweb",
+        codeUrl: "Build/public.wasm.unityweb",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "YamuJung",
+        productName: "MoreMoreAnimal",
+        productVersion: "1.0",
+        showBanner: unityShowBanner,
+      }).then((unityInstance) => {
+        myGameInstance = unityInstance;
+      });*/
+
+       loadingBar.style.display = "block";
+
+      var script = document.createElement("script");
+      script.src = loaderUrl;
+      script.onload = () => {
+        createUnityInstance(canvas, config, (progress) => {
+          progressBarFull.style.width = 100 * progress + "%";
+        }).then((unityInstance) => {
+          loadingBar.style.display = "none";
+          fullscreenButton.onclick = () => {
+            unityInstance.SetFullscreen(1);
+          };
+        }).catch((message) => {
+          alert(message);
+        });
+      };
+      document.body.appendChild(script);
+
+    </script>
+
+  </body>
+</html>

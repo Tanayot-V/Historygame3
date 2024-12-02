@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/3_TowerDefense/Seneces/3_TowerDefense_Level1.unity
+    guid: ab677ed4b4cd745faa94cade92017707
+  - enabled: 0
+    path: Assets/3_TowerDefense/Seneces/3_TowerDefense_Loading.unity
+    guid: accbe1ddb3df147dd951bb8a7c18e07d
+  - enabled: 0
+    path: Assets/3_TowerDefense/Seneces/3_TowerDefense_Level4.unity
+    guid: 72def08a3f76341b8ad97c965f16c637
+  - enabled: 0
+    path: Assets/3_TowerDefense_Prototype/Scenes/TowerDefense.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 0
+    path: Assets/MainSystem/Spine/Scenes/SpineOptimizeTest.unity
+    guid: 0f1b94f738c754045833830b208c994b
+  m_configObjects: {}

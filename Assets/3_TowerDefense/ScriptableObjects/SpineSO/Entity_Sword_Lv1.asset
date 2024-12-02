@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7261a616d73434a6480210dc74ffeeb8, type: 3}
+  m_Name: Entity_Sword_Lv1
+  m_EditorClassIdentifier: 
+  id: Entity_Sword_Lv1
+  displayName: "\u0E19\u0E31\u0E01\u0E14\u0E32\u0E1A"
+  prefab: {fileID: 1720330595891170907, guid: af56ff6cbc70147f3b448e6cefd9012b, type: 3}
+  paths:
+  - light/light_soldier_lv1
+  animations:
+  - type: 0
+    animationName: melee/attack_idie
+  - type: 1
+    animationName: melee/run
+  - type: 2
+    animationName: melee/attack_1
+  - type: 2
+    animationName: melee/attack_1
+  - type: 2
+    animationName: melee/attack_1
+  - type: 3
+    animationName: melee/dead
+  - type: 5
+    animationName: melee/attack_idie

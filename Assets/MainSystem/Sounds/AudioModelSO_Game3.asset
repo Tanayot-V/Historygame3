@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cd6a6442a210419cba3e4a7059110ab, type: 3}
+  m_Name: AudioModelSO_Game3
+  m_EditorClassIdentifier: 
+  audioModels:
+  - id: BGM
+    audioType: 0
+    audioClip: {fileID: 8300000, guid: 0d51e6efac36148c4930ec60c609a37f, type: 3}
+  - id: Click
+    audioType: 1
+    audioClip: {fileID: 8300000, guid: 6e02b068d4a9d44c0a5dee72feffb3ab, type: 3}
+  - id: Click2
+    audioType: 1
+    audioClip: {fileID: 8300000, guid: 795983215a8844dae82a8d54fd318af1, type: 3}
+  - id: Bomb
+    audioType: 1
+    audioClip: {fileID: 8300000, guid: 8e88cc6fb868b4af1a2b51200a4669cb, type: 3}
+  - id: BatrayalF
+    audioType: 1
+    audioClip: {fileID: 8300000, guid: b6576cd7332ca44c4a9a96f2bd5e79d1, type: 3}
+  - id: BatrayalT
+    audioType: 1
+    audioClip: {fileID: 8300000, guid: ec5e893ec88a54f6baa9448eaae91689, type: 3}
+  - id: Victory
+    audioType: 1
+    audioClip: {fileID: 8300000, guid: 0466668f6f7b9490faa5a5bc75835a21, type: 3}
+  - id: Lose
+    audioType: 1
+    audioClip: {fileID: 8300000, guid: f64b1bdff66984d4088bf4d3e02402ab, type: 3}

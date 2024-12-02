@@ -1,0 +1,865 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8eed47fc0dd84925927b39296fbc61a, type: 3}
+  m_Name: StatusModelSO
+  m_EditorClassIdentifier: 
+  enemyStatusModels:
+  - id: SwordJunior
+    enemyType: 0
+    spineSkinModelSO: {fileID: 11400000, guid: 628b13b1b76f746899c9bdbd6ddb3c16, type: 2}
+    status:
+    - id: Combo1
+      comboType: 0
+      hp: 3
+      dmg: 1
+      moveSpd: 2
+      atkSpd: 1
+      gold: 2
+    - id: Combo2
+      comboType: 1
+      hp: 7.5
+      dmg: 2.5
+      moveSpd: 2
+      atkSpd: 1
+      gold: 2
+    - id: Combo3
+      comboType: 2
+      hp: 18.75
+      dmg: 6.25
+      moveSpd: 3
+      atkSpd: 1
+      gold: 2
+  - id: Shield
+    enemyType: 1
+    spineSkinModelSO: {fileID: 11400000, guid: 3f3db59d39771426e99a4eeda4d5aa55, type: 2}
+    status:
+    - id: Combo1
+      comboType: 0
+      hp: 9
+      dmg: 2
+      moveSpd: 2
+      atkSpd: 1.5
+      gold: 2
+    - id: Combo2
+      comboType: 1
+      hp: 22.5
+      dmg: 5
+      moveSpd: 3
+      atkSpd: 1.5
+      gold: 2
+    - id: Combo3
+      comboType: 2
+      hp: 56.25
+      dmg: 12.5
+      moveSpd: 4
+      atkSpd: 1.5
+      gold: 2
+  - id: Gun
+    enemyType: 2
+    spineSkinModelSO: {fileID: 11400000, guid: b3de5b1ef5c4e409c8c7debb65c8c293, type: 2}
+    status:
+    - id: Combo1
+      comboType: 0
+      hp: 2
+      dmg: 1
+      moveSpd: 2
+      atkSpd: 1
+      gold: 2
+    - id: Combo2
+      comboType: 1
+      hp: 4
+      dmg: 3
+      moveSpd: 2
+      atkSpd: 1
+      gold: 2
+    - id: Combo3
+      comboType: 2
+      hp: 8
+      dmg: 5
+      moveSpd: 2
+      atkSpd: 1
+      gold: 2
+  - id: General
+    enemyType: 3
+    spineSkinModelSO: {fileID: 11400000, guid: a03d88ee34e534b3e8c731e133f53b87, type: 2}
+    status:
+    - id: Combo1
+      comboType: 0
+      hp: 1125
+      dmg: 45
+      moveSpd: 2
+      atkSpd: 2
+      gold: 2
+  - id: Merchant
+    enemyType: 5
+    spineSkinModelSO: {fileID: 11400000, guid: 3f3db59d39771426e99a4eeda4d5aa55, type: 2}
+    status:
+    - id: Combo1
+      comboType: 0
+      hp: 9
+      dmg: 2
+      moveSpd: 3
+      atkSpd: 1.5
+      gold: 2
+    - id: Combo2
+      comboType: 1
+      hp: 22.5
+      dmg: 5
+      moveSpd: 3
+      atkSpd: 1.5
+      gold: 2
+    - id: Combo3
+      comboType: 2
+      hp: 56.25
+      dmg: 12.5
+      moveSpd: 4
+      atkSpd: 1.5
+      gold: 2
+  - id: Monk
+    enemyType: 6
+    spineSkinModelSO: {fileID: 11400000, guid: 3f3db59d39771426e99a4eeda4d5aa55, type: 2}
+    status:
+    - id: Combo1
+      comboType: 0
+      hp: 9
+      dmg: 2
+      moveSpd: 3
+      atkSpd: 1.5
+      gold: 2
+    - id: Combo2
+      comboType: 1
+      hp: 22.5
+      dmg: 5
+      moveSpd: 3
+      atkSpd: 1.5
+      gold: 2
+    - id: Combo3
+      comboType: 2
+      hp: 56.25
+      dmg: 12.5
+      moveSpd: 4
+      atkSpd: 1.5
+      gold: 2
+  - id: Cavalry
+    enemyType: 7
+    spineSkinModelSO: {fileID: 11400000, guid: 33822a40d61ae46d19bd5cf5d445a77d, type: 2}
+    status:
+    - id: Combo1
+      comboType: 0
+      hp: 9
+      dmg: 2
+      moveSpd: 3
+      atkSpd: 1.5
+      gold: 2
+    - id: Combo2
+      comboType: 1
+      hp: 22.5
+      dmg: 5
+      moveSpd: 3
+      atkSpd: 1.5
+      gold: 2
+    - id: Combo3
+      comboType: 2
+      hp: 56.25
+      dmg: 12.5
+      moveSpd: 4
+      atkSpd: 1.5
+      gold: 2
+  - id: Betroyal
+    enemyType: 4
+    spineSkinModelSO: {fileID: 11400000, guid: 628b13b1b76f746899c9bdbd6ddb3c16, type: 2}
+    status:
+    - id: Combo1
+      comboType: 0
+      hp: 3
+      dmg: 1
+      moveSpd: 1
+      atkSpd: 1
+      gold: 2
+    - id: Combo2
+      comboType: 1
+      hp: 7.5
+      dmg: 2.5
+      moveSpd: 2
+      atkSpd: 1
+      gold: 2
+    - id: Combo3
+      comboType: 2
+      hp: 18.75
+      dmg: 6.25
+      moveSpd: 3
+      atkSpd: 1
+      gold: 2
+  general:
+    id: General
+    entityCombo: 0
+    hp: 300
+    dmg: 20
+    moveSpd: 1.5
+    atkSpd: 1.5
+    genCost: 0
+  barrackUpgradeSword:
+  - id: Level1_SoldierSword
+    level: 1
+    barrackType: 2
+    spineSkinModelSO: {fileID: 11400000, guid: ab9c5352087ef4a10814310a4062edc4, type: 2}
+    spineSkinModelSOBetrayal: {fileID: 11400000, guid: 302299d1378aa4493a86785977236481, type: 2}
+    sprite: {fileID: 21300000, guid: 5e7641d520b804473a759714d893e38e, type: 3}
+    characterSP: {fileID: 21300000, guid: 75890afc1cf1247fd86261af2178c835, type: 3}
+    entityStatus:
+    - id: Combo1_LV1
+      entityCombo: 0
+      hp: 4
+      dmg: 1
+      moveSpd: 2
+      atkSpd: 1
+      genCost: 0
+    - id: Combo2_LV1
+      entityCombo: 1
+      hp: 10
+      dmg: 2.5
+      moveSpd: 2
+      atkSpd: 1
+      genCost: 0
+    - id: Combo3_LV1
+      entityCombo: 2
+      hp: 25
+      dmg: 6.25
+      moveSpd: 2
+      atkSpd: 1
+      genCost: 0
+    - id: Combo4_LV1
+      entityCombo: 3
+      hp: 25
+      dmg: 6.25
+      moveSpd: 2
+      atkSpd: 1
+      genCost: 0
+    - id: Combo5_LV1
+      entityCombo: 4
+      hp: 43.75
+      dmg: 10.9375
+      moveSpd: 2
+      atkSpd: 1
+      genCost: 0
+    - id: Combo6_LV1
+      entityCombo: 5
+      hp: 43.75
+      dmg: 10.9375
+      moveSpd: 2
+      atkSpd: 1
+      genCost: 0
+    - id: Combo7_LV1
+      entityCombo: 6
+      hp: 109.375
+      dmg: 27.34375
+      moveSpd: 2
+      atkSpd: 1
+      genCost: 0
+    respawnTime: 0.5
+    costUpgrade: 0
+  - id: Level2_SoldierSword
+    level: 2
+    barrackType: 2
+    spineSkinModelSO: {fileID: 11400000, guid: 091d745e4ea35478f8beb7ec33862207, type: 2}
+    spineSkinModelSOBetrayal: {fileID: 11400000, guid: 8f09522981bb2498b806b552177fde89, type: 2}
+    sprite: {fileID: 21300000, guid: 651c7c421be7648c98bfb58cfa149519, type: 3}
+    characterSP: {fileID: 21300000, guid: 75890afc1cf1247fd86261af2178c835, type: 3}
+    entityStatus:
+    - id: Combo1_LV2
+      entityCombo: 0
+      hp: 10
+      dmg: 3
+      moveSpd: 4
+      atkSpd: 1
+      genCost: 0
+    - id: Combo2_LV2
+      entityCombo: 1
+      hp: 25
+      dmg: 7.5
+      moveSpd: 2
+      atkSpd: 1
+      genCost: 0
+    - id: Combo3_LV2
+      entityCombo: 2
+      hp: 62.5
+      dmg: 18.75
+      moveSpd: 2
+      atkSpd: 1.5
+      genCost: 0
+    - id: Combo4_LV2
+      entityCombo: 3
+      hp: 62.5
+      dmg: 18.75
+      moveSpd: 2
+      atkSpd: 1.5
+      genCost: 0
+    - id: Combo5_LV2
+      entityCombo: 4
+      hp: 109.375
+      dmg: 32.8125
+      moveSpd: 2
+      atkSpd: 1.5
+      genCost: 0
+    - id: Combo6_LV2
+      entityCombo: 5
+      hp: 109.375
+      dmg: 32.8125
+      moveSpd: 2
+      atkSpd: 1.5
+      genCost: 0
+    - id: Combo7_LV2
+      entityCombo: 6
+      hp: 273.4375
+      dmg: 82.03125
+      moveSpd: 2
+      atkSpd: 1.5
+      genCost: 0
+    respawnTime: 0.25
+    costUpgrade: 20
+  - id: Level3_SoldierSword
+    level: 3
+    barrackType: 2
+    spineSkinModelSO: {fileID: 11400000, guid: 05d15a4c13fc54f90be6b8c4ca970496, type: 2}
+    spineSkinModelSOBetrayal: {fileID: 11400000, guid: af664a1f89a874f3791ba9b267274201, type: 2}
+    sprite: {fileID: 21300000, guid: 62b4733cbd3bc4b12a9438819d352448, type: 3}
+    characterSP: {fileID: 21300000, guid: 75890afc1cf1247fd86261af2178c835, type: 3}
+    entityStatus:
+    - id: Combo1_LV3
+      entityCombo: 0
+      hp: 25
+      dmg: 6
+      moveSpd: 4
+      atkSpd: 2
+      genCost: 0
+    - id: Combo2_LV3
+      entityCombo: 1
+      hp: 62.5
+      dmg: 15
+      moveSpd: 4
+      atkSpd: 2
+      genCost: 0
+    - id: Combo3__LV3
+      entityCombo: 2
+      hp: 156.25
+      dmg: 37.5
+      moveSpd: 5
+      atkSpd: 2
+      genCost: 0
+    - id: Combo4_LV3
+      entityCombo: 3
+      hp: 156.25
+      dmg: 37.5
+      moveSpd: 5
+      atkSpd: 2
+      genCost: 0
+    - id: Combo5_LV3
+      entityCombo: 4
+      hp: 273.4375
+      dmg: 65.625
+      moveSpd: 5
+      atkSpd: 2
+      genCost: 0
+    - id: Combo6_LV3
+      entityCombo: 5
+      hp: 273.4375
+      dmg: 65.625
+      moveSpd: 5
+      atkSpd: 2
+      genCost: 0
+    - id: Combo7_LV3
+      entityCombo: 6
+      hp: 683.59375
+      dmg: 164.0625
+      moveSpd: 5
+      atkSpd: 2
+      genCost: 0
+    respawnTime: 0.1
+    costUpgrade: 50
+  barrackUpgradeGun:
+  - id: Level1_SoldierGun
+    level: 1
+    barrackType: 1
+    spineSkinModelSO: {fileID: 11400000, guid: f4d9d6f5ce2b844f3848c9ac9a1590b9, type: 2}
+    spineSkinModelSOBetrayal: {fileID: 0}
+    sprite: {fileID: 0}
+    characterSP: {fileID: 21300000, guid: fc69a67548b6546729b3344e168bf86d, type: 3}
+    entityStatus:
+    - id: Combo1_SoldierGun
+      entityCombo: 0
+      hp: 2
+      dmg: 1
+      moveSpd: 2
+      atkSpd: 1
+      genCost: 0
+    - id: Combo2_SoldierGun
+      entityCombo: 1
+      hp: 4
+      dmg: 3
+      moveSpd: 2
+      atkSpd: 1
+      genCost: 0
+    - id: Combo3_SoldierGun
+      entityCombo: 2
+      hp: 8
+      dmg: 5
+      moveSpd: 2
+      atkSpd: 1
+      genCost: 0
+    - id: Combo4_LV1
+      entityCombo: 3
+      hp: 8
+      dmg: 5
+      moveSpd: 2
+      atkSpd: 1
+      genCost: 0
+    - id: Combo5_LV1
+      entityCombo: 4
+      hp: 14
+      dmg: 8.75
+      moveSpd: 2
+      atkSpd: 1
+      genCost: 0
+    - id: Combo6_LV1
+      entityCombo: 5
+      hp: 14
+      dmg: 8.75
+      moveSpd: 2
+      atkSpd: 1
+      genCost: 0
+    - id: Combo7_LV1
+      entityCombo: 6
+      hp: 35
+      dmg: 21.875
+      moveSpd: 2
+      atkSpd: 1
+      genCost: 0
+    respawnTime: 0.5
+    costUpgrade: 0
+  - id: Level2_SoldierGun
+    level: 2
+    barrackType: 1
+    spineSkinModelSO: {fileID: 11400000, guid: df87e48112c8a4f7eb43fccd888d9453, type: 2}
+    spineSkinModelSOBetrayal: {fileID: 0}
+    sprite: {fileID: 0}
+    characterSP: {fileID: 21300000, guid: fc69a67548b6546729b3344e168bf86d, type: 3}
+    entityStatus:
+    - id: Combo1_SoldierGunLv2
+      entityCombo: 0
+      hp: 5
+      dmg: 4
+      moveSpd: 2
+      atkSpd: 2
+      genCost: 0
+    - id: Combo2_SoldierGunLv2
+      entityCombo: 1
+      hp: 12.5
+      dmg: 10
+      moveSpd: 2
+      atkSpd: 2
+      genCost: 0
+    - id: Combo3_SoldierGunLv2
+      entityCombo: 0
+      hp: 31.25
+      dmg: 25
+      moveSpd: 2
+      atkSpd: 2
+      genCost: 0
+    - id: Combo4_LV2
+      entityCombo: 3
+      hp: 31.25
+      dmg: 25
+      moveSpd: 2
+      atkSpd: 2
+      genCost: 0
+    - id: Combo5_LV2
+      entityCombo: 4
+      hp: 54.6875
+      dmg: 43.75
+      moveSpd: 2
+      atkSpd: 2
+      genCost: 0
+    - id: Combo6_LV2
+      entityCombo: 5
+      hp: 54.6875
+      dmg: 43.75
+      moveSpd: 2
+      atkSpd: 2
+      genCost: 0
+    - id: Combo7_LV2
+      entityCombo: 6
+      hp: 136.71875
+      dmg: 109.375
+      moveSpd: 2
+      atkSpd: 2
+      genCost: 0
+    respawnTime: 0.25
+    costUpgrade: 25
+  - id: Level3_SoldierGun
+    level: 3
+    barrackType: 1
+    spineSkinModelSO: {fileID: 11400000, guid: 9f0cecc5b657c47c89583a1c27b9fa14, type: 2}
+    spineSkinModelSOBetrayal: {fileID: 0}
+    sprite: {fileID: 0}
+    characterSP: {fileID: 21300000, guid: fc69a67548b6546729b3344e168bf86d, type: 3}
+    entityStatus:
+    - id: Combo1_SoldierGunLv3
+      entityCombo: 0
+      hp: 10
+      dmg: 8
+      moveSpd: 3
+      atkSpd: 3
+      genCost: 0
+    - id: Combo2_SoldierGunLv3
+      entityCombo: 1
+      hp: 25
+      dmg: 20
+      moveSpd: 3
+      atkSpd: 3
+      genCost: 0
+    - id: Combo3_SoldierGunLv3
+      entityCombo: 2
+      hp: 62.5
+      dmg: 50
+      moveSpd: 3
+      atkSpd: 3
+      genCost: 0
+    - id: Combo4_LV3
+      entityCombo: 3
+      hp: 62.5
+      dmg: 50
+      moveSpd: 3
+      atkSpd: 3
+      genCost: 0
+    - id: Combo5_LV3
+      entityCombo: 4
+      hp: 109.375
+      dmg: 87.5
+      moveSpd: 3
+      atkSpd: 3
+      genCost: 0
+    - id: Combo6_LV3
+      entityCombo: 5
+      hp: 109.375
+      dmg: 87.5
+      moveSpd: 3
+      atkSpd: 3
+      genCost: 0
+    - id: Combo7_LV3
+      entityCombo: 6
+      hp: 273.4375
+      dmg: 218.75
+      moveSpd: 3
+      atkSpd: 3
+      genCost: 0
+    respawnTime: 0.1
+    costUpgrade: 75
+  barrackUpgradeMerchant:
+  - id: Level1_Merchant
+    level: 1
+    barrackType: 3
+    spineSkinModelSO: {fileID: 11400000, guid: 16e9ee100ac3943d09266c9dac775579, type: 2}
+    spineSkinModelSOBetrayal: {fileID: 0}
+    sprite: {fileID: 0}
+    characterSP: {fileID: 21300000, guid: 2084e0ddc3b674e1198d3f0f6d2f6ce5, type: 3}
+    entityStatus:
+    - id: Combo1_LV1
+      entityCombo: 0
+      hp: 2
+      dmg: 2
+      moveSpd: 2
+      atkSpd: 1
+      genCost: 0
+    - id: Combo1_LV2
+      entityCombo: 1
+      hp: 2
+      dmg: 4
+      moveSpd: 2
+      atkSpd: 1
+      genCost: 0
+    - id: Combo1_LV3
+      entityCombo: 2
+      hp: 2
+      dmg: 6
+      moveSpd: 2
+      atkSpd: 1
+      genCost: 0
+    - id: Combo4_LV1
+      entityCombo: 3
+      hp: 2
+      dmg: 6
+      moveSpd: 2
+      atkSpd: 1
+      genCost: 0
+    - id: Combo5_LV1
+      entityCombo: 4
+      hp: 3.5
+      dmg: 10.5
+      moveSpd: 2
+      atkSpd: 1
+      genCost: 0
+    - id: Combo6_LV1
+      entityCombo: 5
+      hp: 3.5
+      dmg: 10.5
+      moveSpd: 2
+      atkSpd: 1
+      genCost: 0
+    - id: Combo7_LV1
+      entityCombo: 6
+      hp: 8.75
+      dmg: 26.25
+      moveSpd: 2
+      atkSpd: 1
+      genCost: 0
+    respawnTime: 0.5
+    costUpgrade: 0
+  - id: Level2_Merchant
+    level: 2
+    barrackType: 3
+    spineSkinModelSO: {fileID: 11400000, guid: a12d1d36806774d34837bec7edac18d3, type: 2}
+    spineSkinModelSOBetrayal: {fileID: 0}
+    sprite: {fileID: 0}
+    characterSP: {fileID: 21300000, guid: 2084e0ddc3b674e1198d3f0f6d2f6ce5, type: 3}
+    entityStatus:
+    - id: Combo1_LV1
+      entityCombo: 0
+      hp: 5
+      dmg: 5
+      moveSpd: 1
+      atkSpd: 1
+      genCost: 0
+    - id: Combo1_LV2
+      entityCombo: 1
+      hp: 5
+      dmg: 10
+      moveSpd: 1
+      atkSpd: 1
+      genCost: 0
+    - id: Combo1_LV3
+      entityCombo: 2
+      hp: 5
+      dmg: 15
+      moveSpd: 1
+      atkSpd: 1
+      genCost: 0
+    - id: Combo4_LV2
+      entityCombo: 3
+      hp: 5
+      dmg: 15
+      moveSpd: 1
+      atkSpd: 1
+      genCost: 0
+    - id: Combo5_LV2
+      entityCombo: 4
+      hp: 8.75
+      dmg: 26.25
+      moveSpd: 1
+      atkSpd: 1
+      genCost: 0
+    - id: Combo6_LV2
+      entityCombo: 5
+      hp: 8.75
+      dmg: 26.25
+      moveSpd: 1
+      atkSpd: 1
+      genCost: 0
+    - id: Combo7_LV2
+      entityCombo: 6
+      hp: 21.875
+      dmg: 65.625
+      moveSpd: 1
+      atkSpd: 1
+      genCost: 0
+    respawnTime: 0.25
+    costUpgrade: 25
+  - id: Level3_Merchant
+    level: 3
+    barrackType: 0
+    spineSkinModelSO: {fileID: 11400000, guid: d49ce0e1a5d16421e914666e65d1251b, type: 2}
+    spineSkinModelSOBetrayal: {fileID: 0}
+    sprite: {fileID: 0}
+    characterSP: {fileID: 21300000, guid: 2084e0ddc3b674e1198d3f0f6d2f6ce5, type: 3}
+    entityStatus:
+    - id: Combo1_LV1
+      entityCombo: 0
+      hp: 20
+      dmg: 20
+      moveSpd: 2
+      atkSpd: 2
+      genCost: 0
+    - id: Combo1_LV2
+      entityCombo: 1
+      hp: 20
+      dmg: 40
+      moveSpd: 2
+      atkSpd: 2
+      genCost: 0
+    - id: Combo1_LV3
+      entityCombo: 2
+      hp: 20
+      dmg: 60
+      moveSpd: 2
+      atkSpd: 2
+      genCost: 0
+    respawnTime: 0.1
+    costUpgrade: 75
+  barrackUpgradeMonk:
+  - id: Level1_Monk
+    level: 1
+    barrackType: 4
+    spineSkinModelSO: {fileID: 11400000, guid: d5ca16227cb5445b8aa96a13abd3491f, type: 2}
+    spineSkinModelSOBetrayal: {fileID: 0}
+    sprite: {fileID: 0}
+    characterSP: {fileID: 21300000, guid: ec038fe3042f54dd8bd2faefff5579a5, type: 3}
+    entityStatus:
+    - id: Combo1_LV1
+      entityCombo: 0
+      hp: 2
+      dmg: 2
+      moveSpd: 2
+      atkSpd: 1
+      genCost: 0
+    - id: Combo2_LV1
+      entityCombo: 1
+      hp: 2
+      dmg: 4
+      moveSpd: 2
+      atkSpd: 1
+      genCost: 0
+    - id: Combo3_LV1
+      entityCombo: 2
+      hp: 2
+      dmg: 6
+      moveSpd: 2
+      atkSpd: 1
+      genCost: 0
+    - id: Combo4_LV1
+      entityCombo: 3
+      hp: 2
+      dmg: 6
+      moveSpd: 2
+      atkSpd: 1
+      genCost: 0
+    - id: Combo5_LV1
+      entityCombo: 4
+      hp: 3.5
+      dmg: 10.5
+      moveSpd: 2
+      atkSpd: 1
+      genCost: 0
+    - id: Combo6_LV1
+      entityCombo: 5
+      hp: 3.5
+      dmg: 10.5
+      moveSpd: 2
+      atkSpd: 1
+      genCost: 0
+    - id: Combo7_LV1
+      entityCombo: 6
+      hp: 8.75
+      dmg: 26.25
+      moveSpd: 2
+      atkSpd: 1
+      genCost: 0
+    respawnTime: 0.5
+    costUpgrade: 0
+  - id: Level2_Monk
+    level: 2
+    barrackType: 4
+    spineSkinModelSO: {fileID: 11400000, guid: 569079938600f4056b11d7b83f1d7da9, type: 2}
+    spineSkinModelSOBetrayal: {fileID: 0}
+    sprite: {fileID: 0}
+    characterSP: {fileID: 21300000, guid: ec038fe3042f54dd8bd2faefff5579a5, type: 3}
+    entityStatus:
+    - id: Combo1_LV2
+      entityCombo: 0
+      hp: 5
+      dmg: 5
+      moveSpd: 1
+      atkSpd: 1
+      genCost: 0
+    - id: Combo2_LV2
+      entityCombo: 1
+      hp: 5
+      dmg: 10
+      moveSpd: 1
+      atkSpd: 1
+      genCost: 0
+    - id: Combo3_LV2
+      entityCombo: 2
+      hp: 5
+      dmg: 15
+      moveSpd: 1
+      atkSpd: 1
+      genCost: 0
+    - id: Combo4_LV2
+      entityCombo: 3
+      hp: 5
+      dmg: 15
+      moveSpd: 1
+      atkSpd: 1
+      genCost: 0
+    - id: Combo5_LV2
+      entityCombo: 4
+      hp: 8.75
+      dmg: 26.25
+      moveSpd: 1
+      atkSpd: 1
+      genCost: 0
+    - id: Combo6_LV2
+      entityCombo: 5
+      hp: 8.75
+      dmg: 26.25
+      moveSpd: 1
+      atkSpd: 1
+      genCost: 0
+    - id: Combo7_LV2
+      entityCombo: 6
+      hp: 21.875
+      dmg: 65.625
+      moveSpd: 1
+      atkSpd: 1
+      genCost: 0
+    respawnTime: 0.25
+    costUpgrade: 20
+  - id: Level3_Monk
+    level: 3
+    barrackType: 4
+    spineSkinModelSO: {fileID: 11400000, guid: 7f671ccebb3394ee985bfd6cc5b109e1, type: 2}
+    spineSkinModelSOBetrayal: {fileID: 0}
+    sprite: {fileID: 0}
+    characterSP: {fileID: 21300000, guid: ec038fe3042f54dd8bd2faefff5579a5, type: 3}
+    entityStatus:
+    - id: Combo1_LV3
+      entityCombo: 0
+      hp: 20
+      dmg: 20
+      moveSpd: 2
+      atkSpd: 2
+      genCost: 0
+    - id: Combo2_LV3
+      entityCombo: 1
+      hp: 20
+      dmg: 40
+      moveSpd: 2
+      atkSpd: 2
+      genCost: 0
+    - id: Combo3_LV3
+      entityCombo: 2
+      hp: 20
+      dmg: 60
+      moveSpd: 2
+      atkSpd: 2
+      genCost: 0
+    respawnTime: 0.1
+    costUpgrade: 50

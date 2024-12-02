@@ -1,0 +1,145 @@
+
+EX_up.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 2, 1213
+  size: 217, 1771
+  orig: 220, 1871
+  offset: 2, 51
+  index: -1
+2
+  rotate: true
+  xy: 2, 1432
+  size: 151, 1848
+  orig: 155, 1953
+  offset: 2, 54
+  index: -1
+3
+  rotate: true
+  xy: 1072, 2
+  size: 817, 819
+  orig: 830, 834
+  offset: 7, 6
+  index: -1
+L1/l1_a
+  rotate: true
+  xy: 2, 854
+  size: 357, 365
+  orig: 359, 368
+  offset: 1, 2
+  index: -1
+L1/l1_b
+  rotate: true
+  xy: 2, 1889
+  size: 44, 60
+  orig: 47, 62
+  offset: 1, 1
+  index: -1
+L1/l1_c
+  rotate: true
+  xy: 639, 1707
+  size: 226, 240
+  orig: 228, 243
+  offset: 1, 1
+  index: -1
+L1/l1_d
+  rotate: true
+  xy: 881, 1698
+  size: 235, 258
+  orig: 237, 260
+  offset: 1, 1
+  index: -1
+L2/l2_a
+  rotate: true
+  xy: 64, 1784
+  size: 149, 154
+  orig: 151, 156
+  offset: 1, 1
+  index: -1
+L2/l2_b
+  rotate: true
+  xy: 1141, 1696
+  size: 237, 290
+  orig: 239, 292
+  offset: 1, 1
+  index: -1
+L2/l2_c
+  rotate: true
+  xy: 769, 827
+  size: 384, 470
+  orig: 387, 473
+  offset: 1, 2
+  index: -1
+L2/l2_d
+  rotate: true
+  xy: 404, 1727
+  size: 206, 233
+  orig: 209, 235
+  offset: 1, 1
+  index: -1
+L2/l2_e
+  rotate: false
+  xy: 1241, 821
+  size: 521, 390
+  orig: 524, 392
+  offset: 2, 1
+  index: -1
+L3/l3_a
+  rotate: false
+  xy: 1433, 1670
+  size: 265, 263
+  orig: 268, 266
+  offset: 1, 1
+  index: -1
+L3/l3_b
+  rotate: false
+  xy: 220, 1770
+  size: 182, 163
+  orig: 184, 166
+  offset: 1, 1
+  index: -1
+L3/l3_c
+  rotate: false
+  xy: 572, 384
+  size: 498, 441
+  orig: 500, 444
+  offset: 1, 2
+  index: -1
+L3/l3_d
+  rotate: true
+  xy: 369, 837
+  size: 374, 398
+  orig: 377, 400
+  offset: 2, 1
+  index: -1
+L3/l3_e
+  rotate: true
+  xy: 1700, 1585
+  size: 348, 270
+  orig: 350, 273
+  offset: 1, 1
+  index: -1
+L3/l3_f
+  rotate: false
+  xy: 2, 399
+  size: 568, 436
+  orig: 570, 438
+  offset: 1, 1
+  index: -1
+
+EX_up2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+4
+  rotate: false
+  xy: 2, 2
+  size: 1581, 1749
+  orig: 1581, 1749
+  offset: 0, 0
+  index: -1

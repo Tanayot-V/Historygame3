@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+  m_Name: soldier_Atlas
+  m_EditorClassIdentifier: 
+  atlasFile: {fileID: 4900000, guid: c9a3de1af86184ea2ac9fabc8a7f864d, type: 3}
+  materials:
+  - {fileID: 2100000, guid: 4802f379b40a348cf866b0eea9b7bfe3, type: 2}
+  - {fileID: 2100000, guid: 1098cf8223d064b0b9b5419fc171605f, type: 2}
+  - {fileID: 2100000, guid: bfe0939fded604f3c9b39d75ac049fe2, type: 2}
+  - {fileID: 2100000, guid: 24349068eba1d455293ada30dffccd3b, type: 2}
+  - {fileID: 2100000, guid: 97b89cf9f820a4a27a9c5650ea9fb982, type: 2}
+  - {fileID: 2100000, guid: d91ad95e6819d41c08101679d64c8c27, type: 2}

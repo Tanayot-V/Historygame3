@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8a19098e3a6242e29524c40472fdd36, type: 3}
+  m_Name: Barrack_Monk
+  m_EditorClassIdentifier: 
+  barrackModel:
+    barrackID: Barrack_Monk
+    displayName: "\u0E1E\u0E23\u0E30"
+    barrackType: 4
+    characterFullSP: {fileID: 21300000, guid: ec038fe3042f54dd8bd2faefff5579a5, type: 3}
+    fortressName: "\u0E1B\u0E49\u0E2D\u0E21\u0E1E\u0E23\u0E30"
+    fortressUISP: {fileID: 21300000, guid: 3f60f4a7dd2664eb8bdc3962d50c1e52, type: 3}
+    fortressFullSP:
+    - {fileID: 21300000, guid: 3f60f4a7dd2664eb8bdc3962d50c1e52, type: 3}
+    - {fileID: 21300000, guid: 3f60f4a7dd2664eb8bdc3962d50c1e52, type: 3}
+    - {fileID: 0}
+    costFortress: 10
+    fortressUpgrades: []
+    general: {fileID: 0}
+    sprite_FullChar: {fileID: 0}
+    prefabs:
+    - {fileID: 1720330595891170907, guid: f6c68841cc79543bb9444f32e7c76d18, type: 3}
+    - {fileID: 6909787825476431669, guid: f628a276c67f044ac9dc2db1e9f1a8b3, type: 3}
+    - {fileID: 973716429070652393, guid: edde52b4376634b238ad548465a73fb7, type: 3}
+    - {fileID: 1611552518831201106, guid: 993f05982b5fd40cd9eb9afb9b30d22d, type: 3}
+    - {fileID: 4343552668683677521, guid: e74d5295062054664bfdfeeb888f9464, type: 3}
+    - {fileID: 8778761079301713677, guid: 8c179e54861fe400681c3cc9ec1844a6, type: 3}
+    - {fileID: 4243968815828117170, guid: f14883105800b44c5b0288abb85db22d, type: 3}

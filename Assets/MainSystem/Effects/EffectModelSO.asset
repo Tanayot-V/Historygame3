@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef64f3f3488d840d2818e55c567ecd60, type: 3}
+  m_Name: EffectModelSO
+  m_EditorClassIdentifier: 
+  effectModels:
+  - id: Click
+    prefab: {fileID: 9117559191975716192, guid: 3dd168ff35de7b947a13432ab2e7f099, type: 3}

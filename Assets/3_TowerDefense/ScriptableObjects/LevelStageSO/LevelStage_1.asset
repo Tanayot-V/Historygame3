@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e353ad70d020c450f8b6a2355935f5f2, type: 3}
+  m_Name: LevelStage_1
+  m_EditorClassIdentifier: 
+  levelStageModel:
+    levelID: Level_1
+    levelType: 1
+    baseType: 1
+    stageDetail:
+      mission: 
+      win: 
+      lose: 
+      trivia: 
+      popups: []
+    barrackModelSO:
+    - {fileID: 11400000, guid: bac79efa070094830a1ab89e1fc584c8, type: 2}
+    enemySpwanModels:
+    - id: Tutorial_1
+      enemyQuantity:
+      - prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      enemiesPerSecond: 1
+      timeBetweenWaves: -1
+    - id: Tutorial_2
+      enemyQuantity:
+      - prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+        quantity: 1
+      enemiesPerSecond: 1
+      timeBetweenWaves: -1
+    - id: Tutorial_3
+      enemyQuantity:
+      - prefab: {fileID: 6602983635711116909, guid: 29b8d0c5bb69a4e3588d8c34f6bb0203, type: 3}
+        quantity: 1
+      enemiesPerSecond: 1
+      timeBetweenWaves: -1
+    enemySpwanModels_B: []

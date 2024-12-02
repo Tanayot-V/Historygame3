@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e353ad70d020c450f8b6a2355935f5f2, type: 3}
+  m_Name: LevelStage_1_Play
+  m_EditorClassIdentifier: 
+  levelStageModel:
+    levelID: Level_1_Play
+    levelType: 2
+    baseType: 1
+    stageDetail:
+      mission: "\u0E17\u0E33\u0E25\u0E32\u0E22\u0E40\u0E21\u0E37\u0E2D\u0E07\u0E02\u0E2D\u0E07\u0E28\u0E31\u0E15\u0E23\u0E39 
+        \\n\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E02\u0E22\u0E32\u0E22\u0E14\u0E34\u0E19\u0E41\u0E14\u0E19"
+      win: "\u0E04\u0E38\u0E13\u0E22\u0E36\u0E14\u0E04\u0E23\u0E2D\u0E07\u0E40\u0E21\u0E37\u0E2D\u0E07\u0E41\u0E2B\u0E48\u0E07\u0E2B\u0E21\u0E2D\u0E01\u0E44\u0E14\u0E49\u0E2A\u0E33\u0E40\u0E23\u0E47\u0E08
+        \\n\u0E1C\u0E39\u0E49\u0E04\u0E19\u0E41\u0E25\u0E30\u0E17\u0E23\u0E31\u0E1E\u0E22\u0E32\u0E01\u0E23\u0E20\u0E32\u0E22\u0E43\u0E15\u0E49\u0E2D\u0E32\u0E13\u0E32\u0E08\u0E31\u0E01\u0E23\u0E2B\u0E21\u0E2D\u0E01 
+        \\n\u0E08\u0E30\u0E01\u0E25\u0E32\u0E22\u0E40\u0E1B\u0E47\u0E19\u0E01\u0E33\u0E25\u0E31\u0E07\u0E43\u0E2B\u0E49\u0E01\u0E31\u0E1A\u0E04\u0E38\u0E13"
+      lose: "\u0E04\u0E38\u0E13\u0E22\u0E36\u0E14\u0E04\u0E23\u0E2D\u0E07\u0E40\u0E21\u0E37\u0E2D\u0E07\u0E41\u0E2B\u0E48\u0E07\u0E2B\u0E21\u0E2D\u0E01\u0E44\u0E21\u0E48\u0E2A\u0E33\u0E40\u0E23\u0E47\u0E08"
+      trivia: "\u0E01\u0E32\u0E23\u0E02\u0E22\u0E32\u0E22\u0E14\u0E34\u0E19\u0E41\u0E14\u0E19\u0E44\u0E21\u0E48\u0E08\u0E33\u0E40\u0E1B\u0E47\u0E19\u0E15\u0E49\u0E2D\u0E07\u0E43\u0E0A\u0E49\u0E01\u0E33\u0E25\u0E31\u0E07\u0E40\u0E2A\u0E21\u0E2D\u0E44\u0E1B
+        \\n\u0E41\u0E15\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E40\u0E01\u0E34\u0E14\u0E08\u0E32\u0E01\u0E01\u0E32\u0E23
+        \"\u0E2A\u0E23\u0E49\u0E32\u0E07\u0E15\u0E25\u0E32\u0E14\" \\n\u0E02\u0E19\u0E32\u0E14\u0E43\u0E2B\u0E0D\u0E48\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E14\u0E36\u0E07\u0E14\u0E39\u0E14\u0E1E\u0E48\u0E2D\u0E04\u0E49\u0E32\u0E08\u0E32\u0E01\u0E15\u0E48\u0E32\u0E07\u0E16\u0E34\u0E48\u0E19
+        \\n\u0E41\u0E25\u0E30\u0E01\u0E32\u0E23\u0E02\u0E22\u0E32\u0E22\u0E14\u0E34\u0E19\u0E41\u0E14\u0E19\u0E42\u0E14\u0E22\u0E01\u0E32\u0E23\u0E23\u0E27\u0E21\u0E2D\u0E33\u0E19\u0E32\u0E08\u0E17\u0E32\u0E07\u0E40\u0E28\u0E23\u0E29\u0E10\u0E01\u0E34\u0E08
+        \\n\u0E08\u0E19\u0E16\u0E39\u0E01\u0E40\u0E23\u0E35\u0E22\u0E01\u0E27\u0E48\u0E32\u0E40\u0E27\u0E19\u0E34\u0E2A\u0E41\u0E2B\u0E48\u0E07\u0E15\u0E30\u0E27\u0E31\u0E19\u0E2D\u0E2D\u0E01\u0E08\u0E32\u0E01\u0E40\u0E21\u0E37\u0E2D\u0E07\u0E17\u0E48\u0E32\u0E01\u0E32\u0E23\u0E04\u0E49\u0E32
+        \\n\u0E43\u0E19\u0E2A\u0E21\u0E31\u0E22\u0E2D\u0E22\u0E38\u0E18\u0E22\u0E32 "
+      popups: []
+    barrackModelSO:
+    - {fileID: 11400000, guid: bac79efa070094830a1ab89e1fc584c8, type: 2}
+    enemySpwanModelList: []
+    enemySpwanModels:
+    - id: wave_1
+      enemyQuantity:
+      - prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 4
+      - prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+        quantity: 2
+      - prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 4
+      enemiesPerSecond: 2
+      timeBetweenWaves: 5
+    - id: wave_2
+      enemyQuantity:
+      - prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+        quantity: 2
+      - prefab: {fileID: 6602983635711116909, guid: 664906b17aecd401680c268c1adab426, type: 3}
+        quantity: 1
+      - prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+        quantity: 1
+      - prefab: {fileID: 6602983635711116909, guid: 664906b17aecd401680c268c1adab426, type: 3}
+        quantity: 1
+      - prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+        quantity: 2
+      - prefab: {fileID: 6602983635711116909, guid: ed9a07a689d77488099f83da057fa779, type: 3}
+        quantity: 1
+      - prefab: {fileID: 6602983635711116909, guid: 29b8d0c5bb69a4e3588d8c34f6bb0203, type: 3}
+        quantity: 1
+      - prefab: {fileID: 6602983635711116909, guid: f3830fb8147d743fa93f24d997a78730, type: 3}
+        quantity: 1
+      - prefab: {fileID: 6602983635711116909, guid: 29b8d0c5bb69a4e3588d8c34f6bb0203, type: 3}
+        quantity: 1
+      - prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+        quantity: 3
+      enemiesPerSecond: 2
+      timeBetweenWaves: 5
+    - id: wave_3
+      enemyQuantity:
+      - prefab: {fileID: 6602983635711116909, guid: 664906b17aecd401680c268c1adab426, type: 3}
+        quantity: 1
+      - prefab: {fileID: 6602983635711116909, guid: ed9a07a689d77488099f83da057fa779, type: 3}
+        quantity: 1
+      - prefab: {fileID: 6602983635711116909, guid: 5801fc3384b304aa3aab8aca4d11511b, type: 3}
+        quantity: 1
+      - prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+        quantity: 3
+      - prefab: {fileID: 6602983635711116909, guid: 664906b17aecd401680c268c1adab426, type: 3}
+        quantity: 1
+      - prefab: {fileID: 6602983635711116909, guid: 664906b17aecd401680c268c1adab426, type: 3}
+        quantity: 1
+      - prefab: {fileID: 6602983635711116909, guid: ed9a07a689d77488099f83da057fa779, type: 3}
+        quantity: 1
+      - prefab: {fileID: 6602983635711116909, guid: 664906b17aecd401680c268c1adab426, type: 3}
+        quantity: 1
+      - prefab: {fileID: 6602983635711116909, guid: ed9a07a689d77488099f83da057fa779, type: 3}
+        quantity: 1
+      - prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+        quantity: 1
+      - prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+        quantity: 1
+      - prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - prefab: {fileID: 6602983635711116909, guid: 29b8d0c5bb69a4e3588d8c34f6bb0203, type: 3}
+        quantity: 1
+      - prefab: {fileID: 6602983635711116909, guid: f3830fb8147d743fa93f24d997a78730, type: 3}
+        quantity: 1
+      - prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+        quantity: 1
+      - prefab: {fileID: 6602983635711116909, guid: 1475b4a67a4f44db1bb8f26d59431570, type: 3}
+        quantity: 1
+      - prefab: {fileID: 6602983635711116909, guid: 45ce22d3d19bf44aa9f89e30760cf054, type: 3}
+        quantity: 2
+      enemiesPerSecond: 1
+      timeBetweenWaves: 5
+    enemySpwanModels_B: []
