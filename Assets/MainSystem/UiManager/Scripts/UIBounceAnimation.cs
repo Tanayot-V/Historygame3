@@ -10,7 +10,6 @@ public class UIBounceAnimation : MonoBehaviour
     public float duration = 0.5f; // ระยะเวลาในการขยาย-หด
     public Ease animationEase = Ease.InOutQuad; // รูปแบบการเคลื่อนไหว
 
-
     void Start()
     {
         uiElement = this.GetComponent<RectTransform>();
