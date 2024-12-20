@@ -16,7 +16,8 @@ public class LobbyManager : Singletons<LobbyManager>
     #region StartGame-Page
     public void StartGameButton()
     {
-        stratGamePage.GetComponent<CanvasGroupTransition>().FadeOut(() => { stratGamePage.SetActive(false); });
+        if(stratGamePage.activeSelf) stratGamePage.GetComponent<CanvasGroupTransition>().FadeOut(() => { stratGamePage.SetActive(false); });
+        ShowSlotClickButton(1);
         transitionLobby.LobbyShow();
     }
     #endregion
@@ -24,7 +25,18 @@ public class LobbyManager : Singletons<LobbyManager>
     #region Equipment
     public EquipmentModelSO GetEquipmentModelSO(string _id)
     {
-        return equipmentManager.equipmentDatabaseSO.GetEquipmentModelSO(_id);
+        return equipmentManager.GetEquipmentModelSO(_id);
     }
+    #region UIEquipPage
+    public void ShowSlotClickButton(int _indexEquipType)
+    {
+        equipmentManager.ShowSlotClick(_indexEquipType);
+    }
+
+    public void ChangeEqipSkin(string _id)
+    {
+        equipmentManager.ChangeEqipSkin(_id);
+    }
+    #endregion
     #endregion
 }
