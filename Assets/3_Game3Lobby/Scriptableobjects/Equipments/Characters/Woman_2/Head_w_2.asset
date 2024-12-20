@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Head_w_2
   m_EditorClassIdentifier: 
   equip_id: Head_w_2
-  displayName: Head_w_2
-  picture: {fileID: 0}
+  displayName: "\u0E2B\u0E31\u0E27\u0E2B\u0E0D\u0E34\u0E072"
+  picture: {fileID: 21300000, guid: f07db98eeddfc4b7ab3e9a39f210a8d8, type: 3}
   genderType: 1
   equipType: 1
   path: Head/Head_w_2

@@ -12,35 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c20de10856b6141bfb0af573ccd19ded, type: 3}
   m_Name: EquipmentDatabaseSO
   m_EditorClassIdentifier: 
-  characterEquipList:
-  - charID: Man_1
-    displayName: "\u0E0A\u0E32\u0E221"
-    gender: 0
-    paths:
-    - {fileID: 11400000, guid: 993f219ceeb624c8a96e4df75d15138d, type: 2}
-    - {fileID: 11400000, guid: 48867657ae1944087b03da5cb9b2eb19, type: 2}
-    - {fileID: 11400000, guid: b05657afa125b4915b535408c174fd25, type: 2}
-  - charID: Man_2
-    displayName: "\u0E0A\u0E32\u0E222"
-    gender: 0
-    paths:
-    - {fileID: 11400000, guid: 633e8532732364bc7831a5388e902e02, type: 2}
-    - {fileID: 11400000, guid: c378d89d44bc84d05884d09ee5f2d7b4, type: 2}
-    - {fileID: 11400000, guid: c3b461d12118d4045babf2f0ebf16336, type: 2}
-  - charID: Woman_1
-    displayName: "\u0E2B\u0E0D\u0E34\u0E071"
-    gender: 1
-    paths:
-    - {fileID: 11400000, guid: 0f798c8e6c41f475bb5c648552748cf6, type: 2}
-    - {fileID: 11400000, guid: c1c2a2680ce2b4ae9a609cb778d4042d, type: 2}
-    - {fileID: 11400000, guid: d2d273fa1825741c3b1c1fb0cb730706, type: 2}
-  - charID: Woman_2
-    displayName: "\u0E2B\u0E0D\u0E34\u0E072"
-    gender: 1
-    paths:
-    - {fileID: 11400000, guid: 7df6f3283300b41f8abefa50424a470e, type: 2}
-    - {fileID: 11400000, guid: aaecc2b9fe533464496324d4728fae25, type: 2}
-    - {fileID: 11400000, guid: 1ef1865539f8a4159a3e11fa56b7c07c, type: 2}
+  characterModelSOLists:
+  - {fileID: 11400000, guid: c8d1bf11fb0ee46a1bab1afa73c2fc01, type: 2}
+  - {fileID: 11400000, guid: efbc7057cb8fa46f6961c391383a6c69, type: 2}
+  - {fileID: 11400000, guid: 0065a2de7b9a64f63b7a80136e12e0bc, type: 2}
+  - {fileID: 11400000, guid: cf07d6388907640ebb52e37b428dd913, type: 2}
   equipPageSlotLists:
   - equipType: 0
     icon: {fileID: 0}
@@ -54,4 +30,4 @@ MonoBehaviour:
     icon: {fileID: 21300000, guid: 282c53b7082f548db97dfa6d12c8df55, type: 3}
   - equipType: 5
     icon: {fileID: 21300000, guid: de9da861280bc4cefb02d6d39b86be68, type: 3}
-  equipmentModelSOs: []
+  equipmentModelSOLists: []
