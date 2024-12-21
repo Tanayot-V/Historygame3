@@ -19,4 +19,22 @@ public class EquipCharacterModelSO : ScriptableObject
         });
         return paths.ToArray();
     }
+
+    public string[] GetPathBaseBody()
+    {
+        return new string[] { equipModels[0].path, equipModels[1].path };
+    }
+
+    private Dictionary<EquipType, EquipmentModelSO> equipTypeDIC = new Dictionary<EquipType, EquipmentModelSO>();
+    public EquipmentModelSO GetEquipmentModelSObyType(EquipType _equipType)
+    {
+        if (equipTypeDIC.ContainsKey(_equipType))
+        {
+            return equipTypeDIC[_equipType];
+        }
+        else
+        {
+            return equipTypeDIC[_equipType] = equipModels.ToList().Find(o => o.equipType == _equipType);
+        }
+    }
 }

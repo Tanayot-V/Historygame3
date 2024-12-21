@@ -1,12 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EquipInventSlot : MonoBehaviour
 {
-    public string id;
+    [SerializeField] private Image imageItem;
+    [SerializeField] private EquipInventorySlot equipInventory;
     public void ChangeButton()
     {
-        LobbyManager.Instance.ChangeEqipSkin(id);
+        LobbyManager.Instance.ChangeEqipSkin(equipInventory.modelSO);
+    }
+
+    public void InitSlot(EquipmentModelSO _modelSO)
+    {
+        equipInventory.modelSO = _modelSO;
+        imageItem.sprite = equipInventory.modelSO.picture;
     }
 }

@@ -16,6 +16,8 @@ MonoBehaviour:
   displayName: "\u0E2B\u0E0D\u0E34\u0E07"
   gender: 1
   equipModels:
+  - {fileID: 11400000, guid: 769c4abf64e384df89e08eda816e4d94, type: 2}
   - {fileID: 11400000, guid: 0f798c8e6c41f475bb5c648552748cf6, type: 2}
   - {fileID: 11400000, guid: c1c2a2680ce2b4ae9a609cb778d4042d, type: 2}
   - {fileID: 11400000, guid: d2d273fa1825741c3b1c1fb0cb730706, type: 2}
+  - {fileID: 11400000, guid: bdb50f50a549248e2bf20412177bbc37, type: 2}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea13b09ad1cae4b49b65a0188af50ca1, type: 3}
+  m_Name: ACC2_M
+  m_EditorClassIdentifier: 
+  equip_id: ACC2_M
+  displayName: "\u0E2B\u0E39\u0E1F\u0E31\u0E07\u0E0A\u0E32\u0E22"
+  picture: {fileID: 679098248, guid: 4a807d24073fb4b98bdee75388b4a8da, type: 3}
+  genderType: 0
+  equipType: 4
+  path: ACC/ACC2

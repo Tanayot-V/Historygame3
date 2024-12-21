@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Linq;
 
 [System.Serializable]
 public class CharacterEquip
@@ -14,7 +15,7 @@ public class CharacterEquip
 
 public enum EquipType
 {
-    NONE = 0,
+    SKIN = 0,
     HEAD = 1,
     UPPERWEAR = 2,
     LOWERWEAR = 3,
@@ -30,10 +31,16 @@ public enum GenderType
 [System.Serializable]
 public class EquipInventorySlot
 {
-    public string invent_id;
-    public EquipmentModelSO equipmentModelSO;
+    public string id;
+    public EquipmentModelSO modelSO;
     public bool isLock;
     public bool isWear;
+
+    public EquipInventorySlot(string _id, EquipmentModelSO _modelSO)
+    {
+        id = _id;
+        modelSO = _modelSO;
+    }
 }
 
 [System.Serializable]
@@ -41,6 +48,15 @@ public class EquipPageSlot
 {
     public EquipType equipType;
     public Sprite icon;
+}
+
+
+[System.Serializable]
+public class EquipTargetSlot
+{
+    public EquipType equipType;
+    public Image showSlotIMG;
+    public EquipmentModelSO modelSO;
 }
 
 public class EquipmentManager : MonoBehaviour
@@ -57,21 +73,32 @@ public class EquipmentManager : MonoBehaviour
     [Header("Current BaseBody")]
     [SerializeField] private int indexCharacterEquip;
     [SerializeField] private EquipCharacterModelSO currentEquipCharModelSO;
+    [SerializeField] private string[] pathBaseBadySkins;
     [SerializeField] private GameObject manSpineGO;
     [SerializeField] private GameObject womanSpineGO;
-    [SerializeField] private List<string> baseBody_ids = new List<string>();
-
-    public List<string> ar = new List<string>();
+    [SerializeField] private List<EquipTargetSlot> targetPaths = new List<EquipTargetSlot>();
+    [SerializeField] private List<string> pathEquips = new List<string>();
+    [SerializeField] private List<string> equipsID = new List<string>();
 
     [Header("Inventories")]
+    [SerializeField] private GameObject prefabInvent;
+    [SerializeField] private GameObject prefabInventlock;
+    [SerializeField] private Transform parantInvet;
     [SerializeField] private List<EquipCharacterModelSO> characterModelSOLists = new List<EquipCharacterModelSO>();
-    [SerializeField] private List<EquipInventorySlot> inventoryLists = new List<EquipInventorySlot>();
+    private List<EquipmentModelSO> equipmentModelSOList_Man = new List<EquipmentModelSO>();
+    private List<EquipmentModelSO> equipmentModelSOList_Woman = new List<EquipmentModelSO>();
 
-    public void Start()
+    [SerializeField] private List<EquipInventorySlot> currentInventory = new List<EquipInventorySlot>();
+
+    public void Start() {}
+
+    public void InitEquipment()
     {
+        InitInventory();
         indexCharacterEquip = 0;
+        currentEquipType = EquipType.HEAD;
         SetupCharacter(indexCharacterEquip);
-        //InitEquipment(baseBody_ids);
+        ShowSlotClick(2);
     }
 
     public void InitEquipment(List<string> _baseBody_ids)
@@ -89,21 +116,23 @@ public class EquipmentManager : MonoBehaviour
     #region UIEquipPage
     public void ShowSlotClick(int _indexEquipType)
     {
-        if (_indexEquipType == 6)
+        if (_indexEquipType == (int)currentEquipType) return;
+        if (_indexEquipType == 0)
         {
             indexCharacterEquip += 1;
             SetupCharacter(indexCharacterEquip);
-            /*
-            if (GetCurrentGender() == GenderType.Man)
-            {
-                ChangeGenderSpine(GenderType.Woman);
-            }
-            else
-            {
-                ChangeGenderSpine(GenderType.Man);
-            }*/
+            currentEquipType = EquipType.HEAD;
+            ShowSlotClick(2);
+            return;
         }
-        else ChangeEqipPage((EquipType)_indexEquipType);
+        else
+        {
+            ChangeEqipPage((EquipType)_indexEquipType);
+            SetupInventory(currentEquipCharModelSO.gender, currentEquipType);
+
+            Button btnInvAll = ButtonGroupManager.Instance.GetButton("EqiupShowSlot", "Upper");
+            ButtonGroupManager.Instance.Select(btnInvAll.GetComponent<ButtonGroup>());
+        }
 
         void ChangeEqipPage(EquipType equipType)
         {
@@ -117,6 +146,8 @@ public class EquipmentManager : MonoBehaviour
     {
         if (_index > characterModelSOLists.Count - 1) _index = 0;
         currentEquipCharModelSO = characterModelSOLists[_index];
+        List<string> pathsBaseList = new List<string>();
+        pathBaseBadySkins = currentEquipCharModelSO.GetPathBaseBody();
         indexCharacterEquip = _index;
 
         if (GetCurrentGender() == GenderType.Woman)
@@ -128,7 +159,19 @@ public class EquipmentManager : MonoBehaviour
             ChangeGenderSpine(GenderType.Man);
         }
 
-        targetBasebody.GetComponent<SpineEntitySkinByPath>().ChangeSkinFormPath(currentEquipCharModelSO.GetPaths());
+        pathEquips.Clear();
+        equipsID.Clear();
+        equipsID.Add("Character ID: "+ currentEquipCharModelSO.charID);
+        targetPaths.ForEach(o => {
+            var modelSO = currentEquipCharModelSO.GetEquipmentModelSObyType(o.equipType);
+            if (modelSO != null)
+            {
+                o.modelSO = modelSO;
+                pathEquips.Add(o.modelSO.path);
+                equipsID.Add(o.modelSO.equip_id);
+            }
+        });
+        targetBasebody.GetComponent<SpineEntitySkinByPath>().ChangeSkinFormPath(pathEquips.ToArray());
     }
 
     private void ChangeGenderSpine(GenderType _genderType)
@@ -155,12 +198,76 @@ public class EquipmentManager : MonoBehaviour
         return genderType;
     }
 
-    public void ChangeEqipSkin(string _id)
+    public void ChangeEqipSkin(EquipmentModelSO _modelSO)
     {
-        if (_id == "default") ar.Clear();
-        ar.Add(_id);
-        targetBasebody.GetComponent<SpineEntitySkinByPath>().ChangeSkinFormPath(ar.ToArray());
+        pathEquips.Clear();
+        equipsID.Clear();
+        equipsID.Add("Character ID: " + currentEquipCharModelSO.charID);
+        targetPaths.ForEach(o => {
+            if (_modelSO.equipType == o.equipType)
+            {
+                o.modelSO = _modelSO;
+                o.showSlotIMG.sprite = o.modelSO.picture;
+            }
+            pathEquips.Add(o.modelSO.path);
+            equipsID.Add(o.modelSO.equip_id);
+        });
+        targetBasebody.GetComponent<SpineEntitySkinByPath>().ChangeSkinFormPath(pathEquips.ToArray());
     }
+    #endregion
+
+    #region Inventory
+    public void InitInventory()
+    {
+        databaseSO.equipmentModelSOLists.ForEach(o => {
+            if (o != null)
+            {
+                if (o.genderType == GenderType.Man)
+                {
+                    equipmentModelSOList_Man.Add(o);
+                }
+                else
+                {
+                    if (o != null) equipmentModelSOList_Woman.Add(o);
+                }
+            }
+        });
+    }
+
+    private void SetupInventory(GenderType _genderType, EquipType _equipType)
+    {
+        Debug.Log(_genderType+"|"+_equipType);
+        currentInventory.Clear();
+        switch (_genderType)
+        {
+            case GenderType.Man:
+                equipmentModelSOList_Man.ForEach(o => {
+                    if(o.equipType == _equipType) currentInventory.Add(new EquipInventorySlot(o.equip_id,o));
+                });
+                break;
+            case GenderType.Woman:
+                equipmentModelSOList_Woman.ForEach(o => {
+                    if (o.equipType == _equipType) currentInventory.Add(new EquipInventorySlot(o.equip_id, o));
+                });
+                break;
+        }
+
+        int inventCount = 12 - currentInventory.Count;
+        Debug.Log(currentInventory.Count);
+        UiController.Instance.DestorySlot(parantInvet.gameObject);
+        currentInventory.ForEach(o => {
+            GameObject slot = UiController.Instance.InstantiateUIView(prefabInvent);
+            slot.transform.SetParent(parantInvet);
+            slot.GetComponent<EquipInventSlot>().InitSlot(o.modelSO); 
+        });
+
+        for (int i = 0; i < inventCount; i++)
+        {
+            GameObject slot = UiController.Instance.InstantiateUIView(prefabInventlock);
+            slot.transform.SetParent(parantInvet);
+        }
+    }
+
     #endregion
 
 }
