@@ -9,6 +9,7 @@ public class EquipCharacterModelSO : ScriptableObject
     public string charID;
     public string displayName;
     public GenderType gender;
+    public Sprite picture;
     public EquipmentModelSO[] equipModels;
 
     public string[] GetPaths()

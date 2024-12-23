@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   equip_id: W_Lower_3
   displayName: "\u0E25\u0E48\u0E32\u0E07\u0E2B\u0E0D\u0E34\u0E073"
-  picture: {fileID: 726128346, guid: 4a807d24073fb4b98bdee75388b4a8da, type: 3}
+  picture: {fileID: 21300000, guid: 80826582f8d1a4f87b6d0ea8a7e17be4, type: 3}
   genderType: 1
   equipType: 3
   path: Lower/Lower_w_3

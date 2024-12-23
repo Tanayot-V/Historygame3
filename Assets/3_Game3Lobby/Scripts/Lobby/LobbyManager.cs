@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class LobbyManager : Singletons<LobbyManager>
 {
-    [SerializeField] private EquipmentManager equipmentManager;
+    [SerializeField] private UILobbyManager uILobbyManager;
     [SerializeField] private GameObject stratGamePage;
+    [SerializeField] private EquipmentManager equipmentManager;
     [SerializeField] private TransitionLobby transitionLobby;
 
     public void Start()
@@ -17,7 +18,7 @@ public class LobbyManager : Singletons<LobbyManager>
     public void StartGameButton()
     {
         if(stratGamePage.activeSelf) stratGamePage.GetComponent<CanvasGroupTransition>().FadeOut(() => { stratGamePage.SetActive(false); });
-        InitEquipment();
+        uILobbyManager.InitEquipment();
         transitionLobby.LobbyShow();
     }
     #endregion
@@ -27,21 +28,5 @@ public class LobbyManager : Singletons<LobbyManager>
     {
         return equipmentManager.GetEquipmentModelSO(_id);
     }
-    #region UIEquipPage
-    public void InitEquipment()
-    {
-        equipmentManager.InitEquipment();
-    }
-
-    public void ShowSlotClickButton(int _indexEquipType)
-    {
-        equipmentManager.ShowSlotClick(_indexEquipType);
-    }
-
-    public void ChangeEqipSkin(EquipmentModelSO _modelSO)
-    {
-        equipmentManager.ChangeEqipSkin(_modelSO);
-    }
-    #endregion
     #endregion
 }

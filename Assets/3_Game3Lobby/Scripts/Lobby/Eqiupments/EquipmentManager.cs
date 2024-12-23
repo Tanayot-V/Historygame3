@@ -63,12 +63,15 @@ public class EquipmentManager : MonoBehaviour
 {
     [SerializeField] private EquipmentDatabaseSO databaseSO;
     [SerializeField] private GameObject targetBasebody;
+    [SerializeField] private GameObject targetBasebodyProfile;
 
     [Header("UIEquipPage")]
     [SerializeField] private EquipType currentEquipType;
     [SerializeField] private Image iconInventShow;
     [SerializeField] private Sprite[] pictureShowSlots;
     [SerializeField] private GameObject inventShow;
+    [SerializeField] private Material materialGray;
+    [SerializeField] private Image confirmImage;
 
     [Header("Current BaseBody")]
     [SerializeField] private int indexCharacterEquip;
@@ -76,6 +79,8 @@ public class EquipmentManager : MonoBehaviour
     [SerializeField] private string[] pathBaseBadySkins;
     [SerializeField] private GameObject manSpineGO;
     [SerializeField] private GameObject womanSpineGO;
+    [SerializeField] private GameObject manSpineGO_Profile;
+    [SerializeField] private GameObject womanSpineGO_Profile;
     [SerializeField] private List<EquipTargetSlot> targetPaths = new List<EquipTargetSlot>();
     [SerializeField] private List<string> pathEquips = new List<string>();
     [SerializeField] private List<string> equipsID = new List<string>();
@@ -99,6 +104,7 @@ public class EquipmentManager : MonoBehaviour
         currentEquipType = EquipType.HEAD;
         SetupCharacter(indexCharacterEquip);
         ShowSlotClick(2);
+        ConfirmButton();
     }
 
     public void InitEquipment(List<string> _baseBody_ids)
@@ -121,8 +127,9 @@ public class EquipmentManager : MonoBehaviour
         {
             indexCharacterEquip += 1;
             SetupCharacter(indexCharacterEquip);
-            currentEquipType = EquipType.HEAD;
+            currentEquipType = EquipType.SKIN;
             ShowSlotClick(2);
+            confirmImage.GetComponent<Image>().material = null;
             return;
         }
         else
@@ -131,7 +138,7 @@ public class EquipmentManager : MonoBehaviour
             SetupInventory(currentEquipCharModelSO.gender, currentEquipType);
 
             Button btnInvAll = ButtonGroupManager.Instance.GetButton("EqiupShowSlot", "Upper");
-            ButtonGroupManager.Instance.Select(btnInvAll.GetComponent<ButtonGroup>());
+            if(btnInvAll!=null) ButtonGroupManager.Instance.Select(btnInvAll.GetComponent<ButtonGroup>());
         }
 
         void ChangeEqipPage(EquipType equipType)
@@ -169,6 +176,8 @@ public class EquipmentManager : MonoBehaviour
                 o.modelSO = modelSO;
                 pathEquips.Add(o.modelSO.path);
                 equipsID.Add(o.modelSO.equip_id);
+                if (o.equipType == EquipType.SKIN) o.showSlotIMG.sprite = currentEquipCharModelSO.picture;
+                else o.showSlotIMG.sprite = o.modelSO.picture;
             }
         });
         targetBasebody.GetComponent<SpineEntitySkinByPath>().ChangeSkinFormPath(pathEquips.ToArray());
@@ -207,12 +216,34 @@ public class EquipmentManager : MonoBehaviour
             if (_modelSO.equipType == o.equipType)
             {
                 o.modelSO = _modelSO;
-                o.showSlotIMG.sprite = o.modelSO.picture;
+                if (o.equipType == EquipType.SKIN) o.showSlotIMG.sprite = currentEquipCharModelSO.picture;
+                else o.showSlotIMG.sprite = o.modelSO.picture;
             }
             pathEquips.Add(o.modelSO.path);
             equipsID.Add(o.modelSO.equip_id);
         });
         targetBasebody.GetComponent<SpineEntitySkinByPath>().ChangeSkinFormPath(pathEquips.ToArray());
+        confirmImage.GetComponent<Image>().material = null;
+    }
+
+    public void ConfirmButton()
+    {
+        if (confirmImage.GetComponent<Image>().material == materialGray) return;
+        manSpineGO_Profile.SetActive(false);
+        womanSpineGO_Profile.SetActive(false);
+        switch (GetCurrentGender())
+        {
+            case GenderType.Man:
+                manSpineGO_Profile.SetActive(true);
+                targetBasebodyProfile = manSpineGO_Profile;
+                break;
+            case GenderType.Woman:
+                womanSpineGO_Profile.SetActive(true);
+                targetBasebodyProfile = womanSpineGO_Profile;
+                break;
+        }
+        targetBasebodyProfile.GetComponent<SpineEntitySkinUIByPath>().ChangeSkinFormPath(pathEquips.ToArray());
+        confirmImage.GetComponent<Image>().material = materialGray;
     }
     #endregion
 
@@ -256,18 +287,15 @@ public class EquipmentManager : MonoBehaviour
         Debug.Log(currentInventory.Count);
         UiController.Instance.DestorySlot(parantInvet.gameObject);
         currentInventory.ForEach(o => {
-            GameObject slot = UiController.Instance.InstantiateUIView(prefabInvent);
-            slot.transform.SetParent(parantInvet);
+            GameObject slot = UiController.Instance.InstantiateUIView(prefabInvent, parantInvet.gameObject);
             slot.GetComponent<EquipInventSlot>().InitSlot(o.modelSO); 
         });
 
         for (int i = 0; i < inventCount; i++)
         {
-            GameObject slot = UiController.Instance.InstantiateUIView(prefabInventlock);
-            slot.transform.SetParent(parantInvet);
+            GameObject slot = UiController.Instance.InstantiateUIView(prefabInventlock, parantInvet.gameObject);
         }
     }
-
     #endregion
 
 }

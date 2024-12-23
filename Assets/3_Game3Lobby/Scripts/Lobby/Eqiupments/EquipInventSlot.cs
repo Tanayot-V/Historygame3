@@ -10,7 +10,7 @@ public class EquipInventSlot : MonoBehaviour
     [SerializeField] private EquipInventorySlot equipInventory;
     public void ChangeButton()
     {
-        LobbyManager.Instance.ChangeEqipSkin(equipInventory.modelSO);
+        UILobbyManager.Instance.ChangeEqipSkin(equipInventory.modelSO);
     }
 
     public void InitSlot(EquipmentModelSO _modelSO)

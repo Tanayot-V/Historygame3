@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   equip_id: Upper_m_1
   displayName: "\u0E1A\u0E19\u0E0A\u0E32\u0E221"
-  picture: {fileID: 911968335, guid: 4a807d24073fb4b98bdee75388b4a8da, type: 3}
+  picture: {fileID: 21300000, guid: 4ba2979101d1f427f983d2101d350c96, type: 3}
   genderType: 0
   equipType: 2
   path: Upper/Upper_m_1

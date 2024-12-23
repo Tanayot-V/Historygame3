@@ -1,0 +1,362 @@
+
+HERO_red.png
+size: 4096,4096
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+02/arm_L_B
+  rotate: true
+  xy: 1271, 3076
+  size: 310, 868
+  orig: 310, 868
+  offset: 0, 0
+  index: -1
+02/arm_R_B
+  rotate: true
+  xy: 2802, 3655
+  size: 272, 526
+  orig: 272, 526
+  offset: 0, 0
+  index: -1
+02/top_B
+  rotate: true
+  xy: 415, 2746
+  size: 412, 609
+  orig: 412, 609
+  offset: 0, 0
+  index: -1
+02/top_shoulder_R_B
+  rotate: true
+  xy: 2, 3166
+  size: 315, 451
+  orig: 315, 451
+  offset: 0, 0
+  index: -1
+05/Gameme_armr_L_D
+  rotate: true
+  xy: 2498, 3371
+  size: 282, 814
+  orig: 282, 814
+  offset: 0, 0
+  index: -1
+05/Gameme_armr_R_D
+  rotate: true
+  xy: 3464, 2877
+  size: 398, 411
+  orig: 398, 411
+  offset: 0, 0
+  index: -1
+05/Gamemer_bottom_D
+  rotate: true
+  xy: 2, 492
+  size: 771, 1604
+  orig: 771, 1604
+  offset: 0, 0
+  index: -1
+05/Gamemer_top_D
+  rotate: true
+  xy: 1637, 2642
+  size: 415, 612
+  orig: 415, 612
+  offset: 0, 0
+  index: -1
+05/headphone_L_D
+  rotate: true
+  xy: 2, 3485
+  size: 294, 368
+  orig: 294, 368
+  offset: 0, 0
+  index: -1
+05/headphone_R_D
+  rotate: true
+  xy: 5, 3781
+  size: 146, 270
+  orig: 148, 272
+  offset: 1, 1
+  index: -1
+06/arm_L_C
+  rotate: true
+  xy: 742, 3444
+  size: 276, 876
+  orig: 276, 876
+  offset: 0, 0
+  index: -1
+06/arm_R_C
+  rotate: true
+  xy: 2865, 2581
+  size: 448, 493
+  orig: 448, 493
+  offset: 0, 0
+  index: -1
+06/belt_C
+  rotate: false
+  xy: 1697, 1916
+  size: 856, 724
+  orig: 856, 724
+  offset: 0, 0
+  index: -1
+06/top_C
+  rotate: true
+  xy: 3360, 2443
+  size: 432, 685
+  orig: 432, 689
+  offset: 0, 0
+  index: -1
+1px
+  rotate: false
+  xy: 2, 3926
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+arm_L
+  rotate: true
+  xy: 2141, 3059
+  size: 310, 868
+  orig: 310, 868
+  offset: 0, 0
+  index: -1
+arm_L_B
+  rotate: true
+  xy: 1620, 3388
+  size: 276, 876
+  orig: 276, 876
+  offset: 0, 0
+  index: -1
+arm_R_B
+  rotate: true
+  xy: 689, 2212
+  size: 448, 493
+  orig: 448, 493
+  offset: 0, 0
+  index: -1
+arm_nude_L
+  rotate: true
+  xy: 1126, 3722
+  size: 205, 828
+  orig: 205, 828
+  offset: 0, 0
+  index: -1
+arm_nude_R
+  rotate: true
+  xy: 1184, 2168
+  size: 472, 511
+  orig: 472, 511
+  offset: 0, 0
+  index: -1
+belt_B
+  rotate: false
+  xy: 2, 1486
+  size: 856, 724
+  orig: 856, 724
+  offset: 0, 0
+  index: -1
+black_L
+  rotate: false
+  xy: 1675, 1072
+  size: 874, 842
+  orig: 874, 842
+  offset: 0, 0
+  index: -1
+black_R
+  rotate: false
+  xy: 2555, 1730
+  size: 750, 849
+  orig: 750, 849
+  offset: 0, 0
+  index: -1
+body_nude
+  rotate: true
+  xy: 1608, 2
+  size: 744, 2164
+  orig: 744, 2164
+  offset: 0, 0
+  index: -1
+crown_B
+  rotate: false
+  xy: 549, 3779
+  size: 197, 148
+  orig: 197, 148
+  offset: 0, 0
+  index: -1
+hair
+  rotate: true
+  xy: 1956, 3666
+  size: 261, 844
+  orig: 261, 844
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 3314, 3348
+  size: 305, 410
+  orig: 305, 410
+  offset: 0, 0
+  index: -1
+head_B
+  rotate: true
+  xy: 3726, 3277
+  size: 376, 341
+  orig: 376, 341
+  offset: 0, 0
+  index: -1
+lower_3
+  rotate: true
+  xy: 860, 1265
+  size: 901, 813
+  orig: 901, 813
+  offset: 0, 0
+  index: -1
+lower_4
+  rotate: false
+  xy: 748, 3752
+  size: 376, 175
+  orig: 376, 175
+  offset: 0, 0
+  index: -1
+skin_Gamemer/Gameme_armr_L
+  rotate: true
+  xy: 455, 3160
+  size: 282, 814
+  orig: 282, 814
+  offset: 0, 0
+  index: -1
+skin_Gamemer/Gameme_armr_R
+  rotate: true
+  xy: 2, 2766
+  size: 398, 411
+  orig: 398, 411
+  offset: 0, 0
+  index: -1
+skin_Gamemer/Gamemer_top
+  rotate: true
+  xy: 2251, 2642
+  size: 415, 612
+  orig: 415, 612
+  offset: 0, 0
+  index: -1
+skin_Gamemer/headphone_L
+  rotate: true
+  xy: 372, 3483
+  size: 294, 368
+  orig: 294, 368
+  offset: 0, 0
+  index: -1
+skin_Gamemer/headphone_R
+  rotate: true
+  xy: 277, 3781
+  size: 146, 270
+  orig: 148, 272
+  offset: 1, 1
+  index: -1
+top
+  rotate: true
+  xy: 1026, 2662
+  size: 412, 609
+  orig: 412, 609
+  offset: 0, 0
+  index: -1
+top_B
+  rotate: true
+  xy: 2, 2312
+  size: 432, 685
+  orig: 432, 689
+  offset: 0, 0
+  index: -1
+top_arm_R
+  rotate: true
+  xy: 3330, 3655
+  size: 272, 526
+  orig: 272, 526
+  offset: 0, 0
+  index: -1
+top_shoulder_R
+  rotate: true
+  xy: 3011, 3031
+  size: 315, 451
+  orig: 315, 451
+  offset: 0, 0
+  index: -1
+white_L
+  rotate: false
+  xy: 2551, 748
+  size: 874, 842
+  orig: 874, 842
+  offset: 0, 0
+  index: -1
+white_R
+  rotate: false
+  xy: 3307, 1592
+  size: 750, 849
+  orig: 750, 849
+  offset: 0, 0
+  index: -1
+
+HERO_red2.png
+size: 4096,4096
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+02/Layer 78_B
+  rotate: false
+  xy: 3065, 1075
+  size: 1017, 1071
+  orig: 1017, 1071
+  offset: 0, 0
+  index: -1
+02/lower_2_B
+  rotate: false
+  xy: 3092, 2148
+  size: 798, 1550
+  orig: 798, 1550
+  offset: 0, 0
+  index: -1
+06/Veil_3_C
+  rotate: false
+  xy: 2, 1990
+  size: 1482, 1708
+  orig: 1482, 1708
+  offset: 0, 0
+  index: -1
+06/leg_C
+  rotate: true
+  xy: 1486, 2138
+  size: 787, 1577
+  orig: 787, 1877
+  offset: 0, 300
+  index: -1
+Veil_3_B
+  rotate: false
+  xy: 2, 280
+  size: 1482, 1708
+  orig: 1482, 1708
+  offset: 0, 0
+  index: -1
+leg_B
+  rotate: true
+  xy: 1486, 1349
+  size: 787, 1577
+  orig: 787, 1877
+  offset: 0, 300
+  index: -1
+lower_1
+  rotate: false
+  xy: 3038, 2
+  size: 1017, 1071
+  orig: 1017, 1071
+  offset: 0, 0
+  index: -1
+lower_2
+  rotate: true
+  xy: 1486, 549
+  size: 798, 1550
+  orig: 798, 1550
+  offset: 0, 0
+  index: -1
+skin_Gamemer/Gamemer_bottom
+  rotate: true
+  xy: 1486, 2927
+  size: 771, 1604
+  orig: 771, 1604
+  offset: 0, 0
+  index: -1

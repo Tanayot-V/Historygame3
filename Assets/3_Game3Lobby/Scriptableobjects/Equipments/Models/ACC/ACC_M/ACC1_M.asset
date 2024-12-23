@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   equip_id: ACC1_M
   displayName: "\u0E2B\u0E39\u0E1F\u0E31\u0E07\u0E0A\u0E32\u0E22"
-  picture: {fileID: 1130726378, guid: 4a807d24073fb4b98bdee75388b4a8da, type: 3}
+  picture: {fileID: 21300000, guid: 6f441d746ec324f4ca8007a36b91ab98, type: 3}
   genderType: 0
   equipType: 4
   path: ACC/ACC1

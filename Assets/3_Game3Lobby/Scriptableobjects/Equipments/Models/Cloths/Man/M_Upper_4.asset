@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: M_Upper_4
   m_EditorClassIdentifier: 
   equip_id: M_Upper_4
-  displayName: "\u0E1A\u0E19\u0E0A\u0E32\u0E222"
-  picture: {fileID: -2120462434, guid: 4a807d24073fb4b98bdee75388b4a8da, type: 3}
+  displayName: "\u0E1A\u0E19\u0E0A\u0E32\u0E224"
+  picture: {fileID: 21300000, guid: ed0dffd96d714497ebf1c6162acf9ef9, type: 3}
   genderType: 0
   equipType: 2
   path: Upper/Upper_m_4

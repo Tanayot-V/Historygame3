@@ -15,6 +15,7 @@ MonoBehaviour:
   charID: Woman_2
   displayName: "\u0E2B\u0E0D\u0E34\u0E07"
   gender: 1
+  picture: {fileID: 21300000, guid: db6e399944d9346ecb35f882f77336f9, type: 3}
   equipModels:
   - {fileID: 11400000, guid: 769c4abf64e384df89e08eda816e4d94, type: 2}
   - {fileID: 11400000, guid: bb7a2c1668e75498bac74e002c4eb041, type: 2}
